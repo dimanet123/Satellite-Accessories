@@ -5,6 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from class_3dobject import Object3D
 from class_3dobject import pandelum
+from class_3dobject import RungeKuttaSolver
 
 print("Start TEST!") # Тестовое сообщение о старте программы
 # Конфигурация сервера UDP
@@ -19,24 +20,58 @@ DAT=[1.0] #Датаграмма из 4х чисел с плавающей точ
 MAXSTEPS=200 #Максимальное число шагов
 #Цикл по шагам
 
-a = Object3D()
+aba = Object3D()
 pandel = pandelum()
-theta = np.pi - np.pi/3  # Начальный угол отклонения
+theta = np.pi  # Начальный угол отклонения
 omega = 0  # Начальная угловая скорость\
 dt = 0.01
 l = 10
 theta_arg = []
 omega_arg = []
-for i in range(10000):
-    theta, omega = pandel.rk4_step(theta, omega, dt)
-    theta_arg.append(theta)
-    omega_arg.append(omega)    
-    a.move_abs(l*np.cos(theta),0,l*np.sin(theta))
+
+# Параметры
+a = 0.1
+b = 0
+d = 0.01
+f = 0.1
+dt = 0.01
+
+# Начальные условия
+t0 = 0.0
+u1_0 = 0.0  # Начальное значение y
+u2_0 = 0.1  # Начальное значение y'
+v1_0 = 0  # Начальное значение phi
+v2_0 = 0.0  # Начальное значение phi'
+
+# Общее время моделирования
+T = 10.0
+
+# Создание экземпляра класса RungeKuttaSolver
+solver = RungeKuttaSolver(a, b, d, f, dt)
+
+# Цикл для вызова метода solve() извне класса
+t_values_all = []
+u1_values_all = []
+u2_values_all = []
+v1_values_all = []
+v2_values_all = []
+
+
+while True:
+    u1_0, u2_0, v1_0, v2_0 = solver.rk4_step(t0, u1_0, u2_0, v1_0, v2_0)
+    t_values_all.append(t0)
+    u1_values_all.append(u1_0)
+    u2_values_all.append(u2_0)
+    v1_values_all.append(v1_0)
+    v2_values_all.append(v2_0)
+    aba.rotate_abs(np.rad2deg(v1_0),0,0)
+    aba.move_abs(0,u1_0,0)
+    
 
     
     DAT=[1.0]
 
-    DAT += a.form_udp()
+    DAT += aba.form_udp()
 
 
      # Пакуем данные val в байты функцией struct.pack('<d', val)
@@ -52,11 +87,3 @@ for i in range(10000):
 
     sock.sendto(buf, (UDP_IP, UDP_PORT)) # Отправляем данные серверу
     time.sleep(0.001)#Задержка по времени в сек. для удобства отображения
-
-plt.plot(theta_arg, omega_arg, label='sin(x)')  # Построение графика y=sin(x)
-plt.xlabel('x')  # Установка подписи для оси x
-plt.ylabel('y')  # Установка подписи для оси y
-plt.title('График функции sin(x)')  # Установка заголовка графика
-plt.legend()  # Вывод легенды
-plt.grid(True)  # Включение сетки
-plt.show()  # Показать график
