@@ -12,18 +12,14 @@ print("UDP_START!!!") # Тестовое сообщение о старте ка
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # Создаём сокет
 # Реализация алгоритма управления 3D-моделью
 # Тестовый пример - смещение в цикле по шагам
-DAT=[1,2,3,4,5] #Датаграмма из 4х чисел с плавающей точкой
+DAT=[1] #Датаграмма из 4х чисел с плавающей точкой
 MAXSTEPS=200 #Максимальное число шагов
 #Цикл по шагам
 for i in range(MAXSTEPS+1):
     print("STEP=:", i) # Печатаем номер шага
     # готовим данные для пересылки
-    DAT[0]=0
     koef = 0.1
-    DAT[1]=np.cos(koef*i)*4
-    DAT[2]=np.cos(koef*i)*5.0
-    DAT[3]=np.sin(koef*i)*5.0
-    DAT[4]=np.sin(koef*i)*500.0
+    DAT[0]=np.cos(koef*i)*4
     print("DAT=",DAT)# Печатаем датаграмму
 
  # Пакуем данные val в байты функцией struct.pack('<d', val)
@@ -38,4 +34,4 @@ for i in range(MAXSTEPS+1):
         buf += struct.pack('<d', val)
 
     sock.sendto(buf, (UDP_IP, UDP_PORT)) # Отправляем данные серверу
-    time.sleep(0.05)#Задержка по времени в сек. для удобства отображения
+    time.sleep(0.1)#Задержка по времени в сек. для удобства отображения
