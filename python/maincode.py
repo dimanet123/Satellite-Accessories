@@ -32,19 +32,8 @@ for i in range(10000):
     theta_arg.append(theta)
     omega_arg.append(omega)    
     a.move_abs(l*np.cos(theta),0,l*np.sin(theta))
-
-    
     DAT=[1.0]
-
     DAT += a.form_udp()
-
-
-     # Пакуем данные val в байты функцией struct.pack('<d', val)
-     # '<d' - это метод упаковки: порядок little-endian - от младшего байта кстаршему
-     # тип данных - числа с плавающей точкой double диной 8 байт или массивтаких чисел
-     # Подробнее упаковку структур см. https://tirinox.ru/python-struct/
-
-     #Вариант с кодированием параметров из списка
     buf = bytes() #создаем переменную - буфер
      # Заполняем буфер
     for val in DAT:

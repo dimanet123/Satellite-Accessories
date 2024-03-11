@@ -6,6 +6,9 @@ import matplotlib.pyplot as plt
 from class_3dobject import Object3D
 from class_3dobject import pandelum
 from class_3dobject import RungeKuttaSolver
+from class_3dobject import oscil
+from class_3dobject import x1
+from class_3dobject import x2
 
 print("Start TEST!") # Тестовое сообщение о старте программы
 # Конфигурация сервера UDP
@@ -55,17 +58,12 @@ u1_values_all = []
 u2_values_all = []
 v1_values_all = []
 v2_values_all = []
-
+t = 0
+dat = oscil()
 
 while True:
-    u1_0, u2_0, v1_0, v2_0 = solver.rk4_step(t0, u1_0, u2_0, v1_0, v2_0)
-    t_values_all.append(t0)
-    u1_values_all.append(u1_0)
-    u2_values_all.append(u2_0)
-    v1_values_all.append(v1_0)
-    v2_values_all.append(v2_0)
-    aba.rotate_abs(np.rad2deg(v1_0),0,0)
-    aba.move_abs(0,u1_0,0)
+    aba.rotate_abs(x2(dat,t,0),0,0)
+    aba.move_abs(0,x1(dat,t) + 2,0)
     
 
     
@@ -86,4 +84,5 @@ while True:
         buf += struct.pack('<d', val)
 
     sock.sendto(buf, (UDP_IP, UDP_PORT)) # Отправляем данные серверу
-    time.sleep(0.001)#Задержка по времени в сек. для удобства отображения
+    time.sleep(0.05)#Задержка по времени в сек. для удобства отображения
+    t += 0.05
