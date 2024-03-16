@@ -101,73 +101,68 @@ class RungeKuttaSolver:
 
 
 def oscil():
-    C1 = 150
-    C2 = 300
-    J = 1000
-    M = 300
-    L1 = 8
-    L2 = 5
-
-    a = (C1+C2)/M
-    b = (C2*L2 - C1*L1)/M
-    c = (C2*L2 - C1*L1)/J
-    d = (C1*L1**2 + C2*L2**2)/J
+    m1 = 5
+    m2 = 5
+    m3 = 5
+    k1 = 1000
+    k2 = 200
+    k3 = 200
+    k4 = 1000
+    
+    degreeFreedom = 3
+    
 
     # Создание матрицы
-    matrix = np.array([[a, b],
-                       [c, d]])
+    matrix_K = np.array([[k1 + k2, -k2, 0], [-k2, k2+k3, -k3],[0, -k3, k3+k4]])
+    matrix_M = np.array([[m1,0,0],[0,m2,0],[0,0,m3]])
+    
+    diagonal_elements = np.diag(matrix_M)
+    
+    matrix_base = matrix_K / diagonal_elements[:, np.newaxis]
 
     # Находим собственные значения и собственные векторы
-    eigenvalues, eigenvectors = np.linalg.eig(matrix)
+    eigenvalues, eigenvectors = np.linalg.eig(matrix_base)
     eigenvalues = np.sort(eigenvalues, axis=0)
-    print("Квадраты собственных частот:", eigenvalues)
-
-    kap1 = eigenvalues[0]/b - a
-    kap2 = eigenvalues[1]/b - a
-
-    kap_matrix = np.array([[1, 1],
-                           [kap1, kap2]])
-
-    print("Матрицы форм:", kap_matrix)
-
-    x1_0 = 0.2
-    x2_0 = np.pi/6
+    
+    matrix_form = eigenvectors
+    
+    x1_0 = 0
+    x2_0 = 0
+    x3_0 = 0
     xx1_0 = 0
     xx2_0 = 0
+    xx3_0 = 10
 
-    matrix_1 = np.array([[x1_0],
-                         [x2_0]])
+    matrix = np.array([[x1_0, xx1_0],[x2_0, xx2_0],[x3_0, xx3_0]])
 
-    matrix_2 = np.array([[xx1_0],
-                         [xx2_0]])
-
-    matrix_C1_C3 = np.linalg.inv(kap_matrix) @ matrix_1
-    matrix_C2_C4 = np.linalg.inv(kap_matrix) @ matrix_2
-
-    print('aaaaa')
-    print(matrix_C1_C3)
-    print(matrix_C2_C4)
-
-    dat = [eigenvalues[0]**(1/2), eigenvalues[1]**(1/2), kap1, kap2,
-           matrix_C1_C3[0], matrix_C2_C4[0], matrix_C1_C3[1], matrix_C2_C4[1]]
-
+    coord_const = np.linalg.solve(matrix_form, matrix[:, 0])
+    speed_const = np.linalg.solve(matrix_form, matrix[:, 1])
+        
+        
+    dat = [matrix_form, eigenvalues, coord_const, speed_const]
     return dat
 
 
-def x1(dat, t):
-    x1 = dat[4] * np.cos(dat[0]*t) + dat[5] * np.sin(dat[0]*t) + \
-        dat[6] * np.cos(dat[1]*t) + dat[7] * np.sin(dat[1]*t)
-    return x1
+
+dot = oscil()
+
+matrix_form = dot[0]
+eigenvalues = np.sqrt(dot[1])
+coord_const = dot[2]
+speed_const = dot[3]
 
 
-def x2(dat, t, form):
-    if form == 0:
-        x2 = dat[4] * np.cos(dat[0]*t) + dat[5] * np.sin(dat[0]*t) + \
-            dat[6] * np.cos(dat[1]*t) + dat[7] * np.sin(dat[1]*t)
-    else:
-        x2 = dat[2]*dat[4] * np.cos(dat[0]*t) + dat[2]*dat[5] * np.sin(
-            dat[0]*t) + dat[3]*dat[6] * np.cos(dat[1]*t) + dat[3]*dat[7] * np.sin(dat[1]*t)
-    return np.rad2deg(x2)
+
+def x1(t, number_form):
+    return matrix_form[0,number_form] * np.cos(eigenvalues[number_form]*t)
+            
+def x2(t, number_form):
+    return matrix_form[1,number_form] * np.cos(eigenvalues[number_form]*t)
+            
+def x3(t, number_form):
+    return matrix_form[2,number_form] * np.cos(eigenvalues[number_form]*t)
+
+
 
        
 
