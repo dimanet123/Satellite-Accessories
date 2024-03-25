@@ -98,4 +98,4 @@ def generate_complete_file(n, original_filename="patternForGenerating.vrcp", new
 
 # Assuming 'original_file.rcp' exists and contains the provided content,
 # this will add 5 new models to it and save as 'complete_file.rcp'
-generate_complete_file(7)
+generate_complete_file(3)
