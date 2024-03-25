@@ -35,6 +35,81 @@ class Object3D:
 
     def __str__(self):
         return f"Position: ({self.x}, {self.y}, {self.z}), Rotation: ({self.rotation_x}, {self.rotation_y}, {self.rotation_z})"
+    
+def oscil(n_masses,dimensions,masses,springs):
+        m1 = 5
+        m2 = 5
+        m3 = 5
+        m4 = 5
+        m5 = 5
+        k1 = 200
+        k2 = 200
+        k3 = 200
+        k4 = 200
+        k5 = 200
+        
+
+
+        # Создание матрицы масс
+        M = np.diag([mass for mass in masses for _ in range(dimensions)])
+
+        # Инициализация матрицы жёсткости
+        K = np.zeros((n_masses * dimensions, n_masses * dimensions))
+
+        # Заполнение матрицы жёсткости
+        for mass1, mass2, stiffness in springs:
+            for dim in range(dimensions):
+                idx1, idx2 = mass1 * dimensions + dim, mass2 * dimensions + dim
+                K[idx1, idx1] += stiffness
+                K[idx2, idx2] += stiffness
+                K[idx1, idx2] -= stiffness
+                K[idx2, idx1] -= stiffness
+
+        # Вывод матрицы масс и жёсткости
+        print("Матрица масс M:")
+        print(M)
+        print("\nМатрица жёсткости K:")
+        print(K)
+        
+        # Создание матрицы
+        matrix_K = K
+        
+        matrix_M = M
+        
+        diagonal_elements = np.diag(matrix_M)
+        
+        matrix_base = matrix_K / diagonal_elements[:, np.newaxis]
+
+        # Находим собственные значения и собственные векторы
+        eigenvalues, eigenvectors = np.linalg.eig(matrix_base)
+        eigenvalues = np.sort(eigenvalues, axis=0)
+        threshold = 1e-10
+        eigenvalues = eigenvalues.real
+        eigenvectors = eigenvectors.real
+        eigenvalues = np.where(abs(eigenvalues) < threshold, 0, eigenvalues)
+        eigenvectors = np.where(abs(eigenvectors) < threshold, 0, eigenvectors)
+        
+        matrix_form = eigenvectors
+        
+        x1_0 = 0
+        x2_0 = 0
+        x3_0 = 0
+        x4_0 = 0
+        x5_0 = 0
+        xx1_0 = 0
+        xx2_0 = 0
+        xx3_0 = 0
+        xx4_0 = 0
+        xx5_0 = 10
+
+        # matrix = np.array([[x1_0, xx1_0],[x2_0, xx2_0],[x3_0, xx3_0], [x4_0, xx4_0]])
+
+        # coord_const = np.linalg.solve(matrix_form, matrix[:, 0])
+        # speed_const = np.linalg.solve(matrix_form, matrix[:, 1])
+            
+            
+        dat = [matrix_form, eigenvalues]
+        return dat
 
 
 
@@ -94,82 +169,3 @@ class Object3D:
 #         v1_new = v1 + (self.dt/6) * (k1_v1 + 2*k2_v1 + 2*k3_v1 + k4_v1)
 #         v2_new = v2 + (self.dt/6) * (k1_v2 + 2*k2_v2 + 2*k3_v2 + k4_v2)
 #         return u1_new, u2_new, v1_new, v2_new
-    
-
-
-
-
-def oscil(n_masses,dimensions,masses,springs):
-    m1 = 5
-    m2 = 5
-    m3 = 5
-    m4 = 5
-    m5 = 5
-    k1 = 200
-    k2 = 200
-    k3 = 200
-    k4 = 200
-    k5 = 200
-    
-
-
-    # Создание матрицы масс
-    M = np.diag([mass for mass in masses for _ in range(dimensions)])
-
-    # Инициализация матрицы жёсткости
-    K = np.zeros((n_masses * dimensions, n_masses * dimensions))
-
-    # Заполнение матрицы жёсткости
-    for mass1, mass2, stiffness in springs:
-        for dim in range(dimensions):
-            idx1, idx2 = mass1 * dimensions + dim, mass2 * dimensions + dim
-            K[idx1, idx1] += stiffness
-            K[idx2, idx2] += stiffness
-            K[idx1, idx2] -= stiffness
-            K[idx2, idx1] -= stiffness
-
-    # Вывод матрицы масс и жёсткости
-    print("Матрица масс M:")
-    print(M)
-    print("\nМатрица жёсткости K:")
-    print(K)
-    
-    # Создание матрицы
-    matrix_K = K
-    
-    matrix_M = M
-    
-    diagonal_elements = np.diag(matrix_M)
-    
-    matrix_base = matrix_K / diagonal_elements[:, np.newaxis]
-
-    # Находим собственные значения и собственные векторы
-    eigenvalues, eigenvectors = np.linalg.eig(matrix_base)
-    eigenvalues = np.sort(eigenvalues, axis=0)
-    threshold = 1e-10
-    eigenvalues = eigenvalues.real
-    eigenvectors = eigenvectors.real
-    eigenvalues = np.where(abs(eigenvalues) < threshold, 0, eigenvalues)
-    eigenvectors = np.where(abs(eigenvectors) < threshold, 0, eigenvectors)
-    
-    matrix_form = eigenvectors
-    
-    x1_0 = 0
-    x2_0 = 0
-    x3_0 = 0
-    x4_0 = 0
-    x5_0 = 0
-    xx1_0 = 0
-    xx2_0 = 0
-    xx3_0 = 0
-    xx4_0 = 0
-    xx5_0 = 10
-
-    # matrix = np.array([[x1_0, xx1_0],[x2_0, xx2_0],[x3_0, xx3_0], [x4_0, xx4_0]])
-
-    # coord_const = np.linalg.solve(matrix_form, matrix[:, 0])
-    # speed_const = np.linalg.solve(matrix_form, matrix[:, 1])
-        
-        
-    dat = [matrix_form, eigenvalues]
-    return dat
