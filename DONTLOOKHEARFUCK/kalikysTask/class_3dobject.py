@@ -37,19 +37,6 @@ class Object3D:
         return f"Position: ({self.x}, {self.y}, {self.z}), Rotation: ({self.rotation_x}, {self.rotation_y}, {self.rotation_z})"
     
 def oscil(n_masses,dimensions,masses,springs):
-        m1 = 5
-        m2 = 5
-        m3 = 5
-        m4 = 5
-        m5 = 5
-        k1 = 200
-        k2 = 200
-        k3 = 200
-        k4 = 200
-        k5 = 200
-        
-
-
         # Создание матрицы масс
         M = np.diag([mass for mass in masses for _ in range(dimensions)])
 
@@ -114,58 +101,58 @@ def oscil(n_masses,dimensions,masses,springs):
 
 
 
-# class pandelum:
-#     def __init__(self, x=0, y=0, z=0, angle = 0, l = 10, g = 10):
-#         self.x = 0
-#         self.y = 0
-#         self.z = 0
-#         self.angle = angle
-#         self.l = l
-#         self. g = 10
+class pandelum:
+    def __init__(self, x=0, y=0, z=0, angle = 0, l = 10, g = 10):
+        self.x = 0
+        self.y = 0
+        self.z = 0
+        self.angle = angle
+        self.l = l
+        self. g = 10
     
-#     def f(self, theta, omega):
-#         g_over_L = 9.8 / self.l
-#         return -g_over_L * np.sin(theta) - 0.1*omega
+    def f(self, theta, omega):
+        g_over_L = 9.8 / self.l
+        return -g_over_L * np.sin(theta) - 0.1*omega
 
-#     def rk4_step(self, theta, omega, dt):
-#         k1_theta = omega
-#         k1_omega = self.f(theta, omega)
+    def rk4_step(self, theta, omega, dt):
+        k1_theta = omega
+        k1_omega = self.f(theta, omega)
         
-#         k2_theta = omega + 0.5 * dt * k1_omega
-#         k2_omega = self.f(theta + 0.5 * dt * k1_theta, omega + 0.5 * dt * k1_omega)
+        k2_theta = omega + 0.5 * dt * k1_omega
+        k2_omega = self.f(theta + 0.5 * dt * k1_theta, omega + 0.5 * dt * k1_omega)
         
-#         k3_theta = omega + 0.5 * dt * k2_omega
-#         k3_omega = self.f(theta + 0.5 * dt * k2_theta, omega + 0.5 * dt * k2_omega)
+        k3_theta = omega + 0.5 * dt * k2_omega
+        k3_omega = self.f(theta + 0.5 * dt * k2_theta, omega + 0.5 * dt * k2_omega)
         
-#         k4_theta = omega + dt * k3_omega
-#         k4_omega = self.f(theta + dt * k3_theta, omega + dt * k3_omega)
+        k4_theta = omega + dt * k3_omega
+        k4_omega = self.f(theta + dt * k3_theta, omega + dt * k3_omega)
         
-#         theta_new = theta + (dt / 6) * (k1_theta + 2*k2_theta + 2*k3_theta + k4_theta)
-#         omega_new = omega + (dt / 6) * (k1_omega + 2*k2_omega + 2*k3_omega + k4_omega)
+        theta_new = theta + (dt / 6) * (k1_theta + 2*k2_theta + 2*k3_theta + k4_theta)
+        omega_new = omega + (dt / 6) * (k1_omega + 2*k2_omega + 2*k3_omega + k4_omega)
         
-#         return theta_new, omega_new
+        return theta_new, omega_new
     
-# class RungeKuttaSolver:
-#     def __init__(self, a, b, d, f, dt):
-#         self.a = a
-#         self.b = b
-#         self.d = d
-#         self.f = f
-#         self.dt = dt
+class RungeKuttaSolver:
+    def __init__(self, a, b, d, f, dt):
+        self.a = a
+        self.b = b
+        self.d = d
+        self.f = f
+        self.dt = dt
 
-#     def equations(self, t, u1, u2, v1, v2):
-#         return u2, -self.a*u1 - np.sin(v1)*self.b, v2, -u1*np.cos(v1)*self.d - np.sin(2*v1)*self.f
+    def equations(self, t, u1, u2, v1, v2):
+        return u2, -self.a*u1 - np.sin(v1)*self.b, v2, -u1*np.cos(v1)*self.d - np.sin(2*v1)*self.f
 
-#     def rk4_step(self, t, u1, u2, v1, v2):
-#         k1_u1, k1_u2, k1_v1, k1_v2 = self.equations(t, u1, u2, v1, v2)
-#         k2_u1, k2_u2, k2_v1, k2_v2 = self.equations(t + 0.5*self.dt, u1 + 0.5*self.dt*k1_u1, u2 + 0.5*self.dt*k1_u2,
-#                                                       v1 + 0.5*self.dt*k1_v1, v2 + 0.5*self.dt*k1_v2)
-#         k3_u1, k3_u2, k3_v1, k3_v2 = self.equations(t + 0.5*self.dt, u1 + 0.5*self.dt*k2_u1, u2 + 0.5*self.dt*k2_u2,
-#                                                       v1 + 0.5*self.dt*k2_v1, v2 + 0.5*self.dt*k2_v2)
-#         k4_u1, k4_u2, k4_v1, k4_v2 = self.equations(t + self.dt, u1 + self.dt*k3_u1, u2 + self.dt*k3_u2,
-#                                                       v1 + self.dt*k3_v1, v2 + self.dt*k3_v2)
-#         u1_new = u1 + (self.dt/6) * (k1_u1 + 2*k2_u1 + 2*k3_u1 + k4_u1)
-#         u2_new = u2 + (self.dt/6) * (k1_u2 + 2*k2_u2 + 2*k3_u2 + k4_u2)
-#         v1_new = v1 + (self.dt/6) * (k1_v1 + 2*k2_v1 + 2*k3_v1 + k4_v1)
-#         v2_new = v2 + (self.dt/6) * (k1_v2 + 2*k2_v2 + 2*k3_v2 + k4_v2)
-#         return u1_new, u2_new, v1_new, v2_new
+    def rk4_step(self, t, u1, u2, v1, v2):
+        k1_u1, k1_u2, k1_v1, k1_v2 = self.equations(t, u1, u2, v1, v2)
+        k2_u1, k2_u2, k2_v1, k2_v2 = self.equations(t + 0.5*self.dt, u1 + 0.5*self.dt*k1_u1, u2 + 0.5*self.dt*k1_u2,
+                                                      v1 + 0.5*self.dt*k1_v1, v2 + 0.5*self.dt*k1_v2)
+        k3_u1, k3_u2, k3_v1, k3_v2 = self.equations(t + 0.5*self.dt, u1 + 0.5*self.dt*k2_u1, u2 + 0.5*self.dt*k2_u2,
+                                                      v1 + 0.5*self.dt*k2_v1, v2 + 0.5*self.dt*k2_v2)
+        k4_u1, k4_u2, k4_v1, k4_v2 = self.equations(t + self.dt, u1 + self.dt*k3_u1, u2 + self.dt*k3_u2,
+                                                      v1 + self.dt*k3_v1, v2 + self.dt*k3_v2)
+        u1_new = u1 + (self.dt/6) * (k1_u1 + 2*k2_u1 + 2*k3_u1 + k4_u1)
+        u2_new = u2 + (self.dt/6) * (k1_u2 + 2*k2_u2 + 2*k3_u2 + k4_u2)
+        v1_new = v1 + (self.dt/6) * (k1_v1 + 2*k2_v1 + 2*k3_v1 + k4_v1)
+        v2_new = v2 + (self.dt/6) * (k1_v2 + 2*k2_v2 + 2*k3_v2 + k4_v2)
+        return u1_new, u2_new, v1_new, v2_new

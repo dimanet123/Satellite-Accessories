@@ -3,13 +3,18 @@ import time
 import struct
 import numpy as np
 import matplotlib.pyplot as plt
+import sys
+import threading
+
+sys.path.insert(0, '../../python_classes/')
+
 from class_3dobject import Object3D, oscil
 
 UDP_IP = "127.0.0.1"
 UDP_PORT = 6501
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-num_all = 200
+num_all = 100
 # Определяем количество объектов по осям x и y
 numObjX = 10
 numObjY = 10  # Можно изменять для прямоугольной формы
@@ -34,7 +39,25 @@ def refresh_coord():
 
 refresh_coord()
 
+
+def listen_for_input():
+    global mode_x, mode_y
+    while True:
+        try:
+            # Чтение нового значения из консоли
+            mode_x, mode_y = input("Введите новое значение номера по x и y: ").split()
+            mode_x = int(mode_x)
+            mode_y = int(mode_y)
+            current_parameter = mode_x
+        except ValueError:
+            print("Пожалуйста, введите корректное числовое значение.")
+
+listener_thread = threading.Thread(target=listen_for_input)
+listener_thread.daemon = True  # Позволяет программе завершиться, даже если поток активен
+listener_thread.start()
+
 while True:
+    
     index = 0
     for y_coord in range(numObjY):
         y_eq = y_coord * 2  # Умножение на 2 для соответствия с предыдущим подходом по y_coord

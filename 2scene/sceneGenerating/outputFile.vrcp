@@ -174,9 +174,9 @@ plugin_manager
 			ImportingLights = "true"
 			Normalized coordinates = "false"
 			TransformHardware = "false"
-			offset (x) = "0.0001"
-			offset (y) = "0.0001"
-			offset (z) = "0.0001"
+			offset (x) = "0"
+			offset (y) = "0"
+			offset (z) = "0"
 		}
 	}
 
@@ -464,7 +464,7 @@ plugin_manager
 			EnableHandCollisions = "false"
 			EnableMovingObjectsCollisions = "false"
 			HideInfoManually = "true"
-			HighlightTransparency = "1.7802003289800703e-306"
+			HighlightTransparency = "9.34600962694054e-307"
 			NoteData = ""
 			SelectObjectButton = "-1"
 			ShowCollisions = "false"
@@ -664,7 +664,7 @@ scene_manager
 {
 	node
 	{
-    plugin = "StandardOsgLoader"
+		plugin = "StandardOsgLoader"
 		property = "vrc::TransformProperty"
 		property = "vrc::ModelLoaderProperty"
 		property = "vrc::ShowHideProperty"
@@ -679,10 +679,320 @@ scene_manager
 			Rotate = "0 0 0"
 			Scale = "1 1 1"
 			Translate = "0 0 0"
-		}}
+		}
 
-			node
+		node
+		{
+			cached_model_guid = "49158D56EC66C643B085738CCF6570D4"
+			file = "C:/Program Files/VR Concept/data/models/instruments/klu4.FBX"
+			property = "vrc::TransformProperty"
+			property = "vrc::SceneNodeBase::PluginParameters"
+			property = "vrc::ModelLoaderProperty"
+			property = "vrc::ShowHideProperty"
+
+			model_loader
 			{
+				EnableBlending = "false"
+				EnableLODs = "false"
+				ForceNoBackfaceCulling = "false"
+				ForceNormalizeNormals = "true"
+				ModelName = "klu4"
+				Rotate = "0 0 0"
+				Scale = "1 1 1"
+				Translate = "0 0 0"
+			}
+
+			parameters
+			{
+				ImportingAnimation = "true"
+				ImportingCameras = "true"
+				ImportingLights = "true"
+				Normalized coordinates = "false"
+				TransformHardware = "false"
+				offset (x) = "0"
+				offset (y) = "0"
+				offset (z) = "0"
+			}
+
+			show_hide
+			{
+				InitStatus = "2"
+				Status = "2"
+			}
+
+			transform
+			{
+				ForceNormalizeNormals = "true"
+				InitMatrix = "-4.371139e-08 0 -1 0 0 1 0 0 1 0 -4.371139e-08 0 0 0 0 1"
+				Rotate = "0 90 0"
+				Scale = "1 1 1"
+				Translate = "0 0 0"
+			}
+		}
+
+		node
+		{
+			cached_model_guid = "802E441ED1D8434497BEAC9602504519"
+			file = "C:/Program Files/VR Concept/data/models/instruments/otvertka_krestovaya.FBX"
+			property = "vrc::TransformProperty"
+			property = "vrc::SceneNodeBase::PluginParameters"
+			property = "vrc::ModelLoaderProperty"
+			property = "vrc::ShowHideProperty"
+
+			model_loader
+			{
+				EnableBlending = "false"
+				EnableLODs = "false"
+				ForceNoBackfaceCulling = "false"
+				ForceNormalizeNormals = "true"
+				ModelName = "otvertka_krestovaya"
+				Rotate = "0 0 0"
+				Scale = "1 1 1"
+				Translate = "0 0 0"
+			}
+
+			parameters
+			{
+				ImportingAnimation = "true"
+				ImportingCameras = "true"
+				ImportingLights = "true"
+				Normalized coordinates = "false"
+				TransformHardware = "false"
+				offset (x) = "0"
+				offset (y) = "0"
+				offset (z) = "0"
+			}
+
+			show_hide
+			{
+				InitStatus = "2"
+				Status = "2"
+			}
+
+			transform
+			{
+				ForceNormalizeNormals = "true"
+				InitMatrix = "-4.371139e-08 0 -1 0 0 1 0 0 1 0 -4.371139e-08 0 0 0 0 1"
+				Rotate = "0 90 0"
+				Scale = "1 1 1"
+				Translate = "0 0 0"
+			}
+		}
+
+		node
+		{
+			cached_model_guid = "93DE49AE87864F40BD846FF44564103B"
+			file = "C:/Program Files/VR Concept/data/models/instruments/otvertka_pryamaya.FBX"
+			property = "vrc::TransformProperty"
+			property = "vrc::SceneNodeBase::PluginParameters"
+			property = "vrc::ModelLoaderProperty"
+			property = "vrc::ShowHideProperty"
+
+			model_loader
+			{
+				EnableBlending = "false"
+				EnableLODs = "false"
+				ForceNoBackfaceCulling = "false"
+				ForceNormalizeNormals = "true"
+				ModelName = "otvertka_pryamaya"
+				Rotate = "0 0 0"
+				Scale = "1 1 1"
+				Translate = "0 0 0"
+			}
+
+			parameters
+			{
+				ImportingAnimation = "true"
+				ImportingCameras = "true"
+				ImportingLights = "true"
+				Normalized coordinates = "false"
+				TransformHardware = "false"
+				offset (x) = "0"
+				offset (y) = "0"
+				offset (z) = "0"
+			}
+
+			show_hide
+			{
+				InitStatus = "2"
+				Status = "2"
+			}
+
+			transform
+			{
+				ForceNormalizeNormals = "true"
+				InitMatrix = "-4.371139e-08 0 -1 0 0 1 0 0 1 0 -4.371139e-08 0 0 0 0 1"
+				Rotate = "0 90 0"
+				Scale = "1 1 1"
+				Translate = "0 0 0"
+			}
+		}
+
+		node
+		{
+			cached_model_guid = "0E22688B42FC864DAB83DF384C13B2BB"
+			file = "C:/Program Files/VR Concept/data/models/instruments/treshetka.FBX"
+			property = "vrc::TransformProperty"
+			property = "vrc::SceneNodeBase::PluginParameters"
+			property = "vrc::ModelLoaderProperty"
+			property = "vrc::AnimationProperty"
+			property = "vrc::ShowHideProperty"
+
+			animation
+			{
+				Durations = "3.3333332538604736"
+				Names = "Take 001"
+				SourceNames = ";"
+				StartTimes = "0"
+			}
+
+			model_loader
+			{
+				EnableBlending = "false"
+				EnableLODs = "false"
+				ForceNoBackfaceCulling = "false"
+				ForceNormalizeNormals = "true"
+				ModelName = "treshetka"
+				Rotate = "0 0 0"
+				Scale = "1 1 1"
+				Translate = "0 0 0"
+			}
+
+			parameters
+			{
+				ImportingAnimation = "true"
+				ImportingCameras = "true"
+				ImportingLights = "true"
+				Normalized coordinates = "false"
+				TransformHardware = "false"
+				offset (x) = "0"
+				offset (y) = "0"
+				offset (z) = "0"
+			}
+
+			show_hide
+			{
+				InitStatus = "2"
+				Status = "2"
+			}
+
+			transform
+			{
+				ForceNormalizeNormals = "true"
+				InitMatrix = "-4.371139e-08 0 -1 0 0 1 0 0 1 0 -4.371139e-08 0 0 0 0 1"
+				Rotate = "0 90 0"
+				Scale = "1 1 1"
+				Translate = "0 0 0"
+			}
+		}
+
+		show_hide
+		{
+			InitStatus = "2"
+			Status = "2"
+		}
+
+		transform
+		{
+			ForceNormalizeNormals = "true"
+			InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+			Rotate = "0 -0 0"
+			Scale = "1 1 1"
+			Translate = "0 0 0"
+		}
+	}
+
+	node
+	{
+		plugin = "Texture"
+		property = "vrc::TransformProperty"
+		property = "vrc::SceneNodeBase::PluginParameters"
+		property = "vrc::ClippingControlProperty"
+		property = "vrc::UserDataProperty"
+		property = "vrc::UnmovableProperty"
+
+		clipping_control
+		{
+			InitStatus = "2"
+			Status = "2"
+		}
+
+		node
+		{
+			plugin = "Plane"
+			property = "vrc::TransformProperty"
+			property = "vrc::SceneNodeBase::PluginParameters"
+			property = "vrc::UserDataProperty"
+			property = "vrc::UnmovableProperty"
+
+			parameters
+			{
+				CreateByTriangles = "true"
+				DiffuseColor = "1 1 1 1"
+				EnableLighting = "false"
+				Length = "1"
+				Rotate = "0 0 0"
+				Scale = "50 50 50"
+				TextureScale = "0.05 0.05 0.05"
+				Translate = "0 0 0"
+				Transparency = "1"
+				Width = "1"
+			}
+
+			transform
+			{
+				ForceNormalizeNormals = "true"
+				InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+				Rotate = "0 -0 0"
+				Scale = "1 1 1"
+				Translate = "0 0 0"
+			}
+
+			unmovable
+			{
+				AdhereTag = ""
+				GroupName = ""
+				Overridable = "true"
+			}
+
+			user_data
+			{
+				Preset = "true"
+			}
+		}
+
+		parameters
+		{
+			ShaderUniformName = ""
+			TextureFile = "../../textures/plane/concrete.jpg"
+			Unit = "0"
+		}
+
+		transform
+		{
+			ForceNormalizeNormals = "true"
+			InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+			Rotate = "0 -0 0"
+			Scale = "1 1 1"
+			Translate = "0 0 0"
+		}
+
+		unmovable
+		{
+			AdhereTag = ""
+			GroupName = ""
+			Overridable = "true"
+		}
+
+		user_data
+		{
+			Preset = "true"
+		}
+	}
+
+	node
+	{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -729,8 +1039,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -777,8 +1087,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -825,8 +1135,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -873,8 +1183,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -921,8 +1231,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -969,8 +1279,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -1017,8 +1327,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -1065,8 +1375,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -1113,8 +1423,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -1161,8 +1471,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -1209,8 +1519,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -1257,8 +1567,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -1305,8 +1615,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -1353,8 +1663,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -1401,8 +1711,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -1449,8 +1759,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -1497,8 +1807,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -1545,8 +1855,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -1593,8 +1903,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -1641,8 +1951,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -1689,8 +1999,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -1737,8 +2047,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -1785,8 +2095,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -1833,8 +2143,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -1881,8 +2191,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -1929,8 +2239,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -1977,8 +2287,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -2025,8 +2335,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -2073,8 +2383,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -2121,8 +2431,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -2169,8 +2479,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -2217,8 +2527,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -2265,8 +2575,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -2313,8 +2623,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -2361,8 +2671,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -2409,8 +2719,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -2457,8 +2767,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -2505,8 +2815,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -2553,8 +2863,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -2601,8 +2911,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -2649,8 +2959,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -2697,8 +3007,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -2745,8 +3055,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -2793,8 +3103,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -2841,8 +3151,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -2889,8 +3199,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -2937,8 +3247,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -2985,8 +3295,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -3033,8 +3343,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -3081,8 +3391,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -3129,8 +3439,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -3177,8 +3487,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -3225,8 +3535,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -3273,8 +3583,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -3321,8 +3631,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -3369,8 +3679,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -3417,8 +3727,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -3465,8 +3775,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -3513,8 +3823,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -3561,8 +3871,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -3609,8 +3919,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -3657,8 +3967,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -3705,8 +4015,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -3753,8 +4063,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -3801,8 +4111,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -3849,8 +4159,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -3897,8 +4207,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -3945,8 +4255,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -3993,8 +4303,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -4041,8 +4351,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -4089,8 +4399,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -4137,8 +4447,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -4185,8 +4495,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -4233,8 +4543,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -4281,8 +4591,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -4329,8 +4639,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -4377,8 +4687,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -4425,8 +4735,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -4473,8 +4783,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -4521,8 +4831,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -4569,8 +4879,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -4617,8 +4927,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -4665,8 +4975,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -4713,8 +5023,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -4761,8 +5071,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -4809,8 +5119,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -4857,8 +5167,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -4905,8 +5215,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -4953,8 +5263,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -5001,8 +5311,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -5049,8 +5359,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -5097,8 +5407,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -5145,8 +5455,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -5193,8 +5503,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -5241,8 +5551,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -5289,8 +5599,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -5337,8 +5647,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -5385,8 +5695,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -5433,8 +5743,8 @@ scene_manager
 				}
 			}
 
-			node
-			{
+	node{
+
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
 				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
@@ -5481,4812 +5791,88 @@ scene_manager
 				}
 			}
 
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube100"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:601:1:1,0,0;move:602:1:0,1,0;move:603:1:0,0,1;rotate:604:1:1,0,0;rotate:605:1:0,1,0;rotate:606:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube101"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:607:1:1,0,0;move:608:1:0,1,0;move:609:1:0,0,1;rotate:610:1:1,0,0;rotate:611:1:0,1,0;rotate:612:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube102"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:613:1:1,0,0;move:614:1:0,1,0;move:615:1:0,0,1;rotate:616:1:1,0,0;rotate:617:1:0,1,0;rotate:618:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube103"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:619:1:1,0,0;move:620:1:0,1,0;move:621:1:0,0,1;rotate:622:1:1,0,0;rotate:623:1:0,1,0;rotate:624:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube104"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:625:1:1,0,0;move:626:1:0,1,0;move:627:1:0,0,1;rotate:628:1:1,0,0;rotate:629:1:0,1,0;rotate:630:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube105"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:631:1:1,0,0;move:632:1:0,1,0;move:633:1:0,0,1;rotate:634:1:1,0,0;rotate:635:1:0,1,0;rotate:636:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube106"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:637:1:1,0,0;move:638:1:0,1,0;move:639:1:0,0,1;rotate:640:1:1,0,0;rotate:641:1:0,1,0;rotate:642:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube107"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:643:1:1,0,0;move:644:1:0,1,0;move:645:1:0,0,1;rotate:646:1:1,0,0;rotate:647:1:0,1,0;rotate:648:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube108"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:649:1:1,0,0;move:650:1:0,1,0;move:651:1:0,0,1;rotate:652:1:1,0,0;rotate:653:1:0,1,0;rotate:654:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube109"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:655:1:1,0,0;move:656:1:0,1,0;move:657:1:0,0,1;rotate:658:1:1,0,0;rotate:659:1:0,1,0;rotate:660:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube110"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:661:1:1,0,0;move:662:1:0,1,0;move:663:1:0,0,1;rotate:664:1:1,0,0;rotate:665:1:0,1,0;rotate:666:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube111"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:667:1:1,0,0;move:668:1:0,1,0;move:669:1:0,0,1;rotate:670:1:1,0,0;rotate:671:1:0,1,0;rotate:672:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube112"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:673:1:1,0,0;move:674:1:0,1,0;move:675:1:0,0,1;rotate:676:1:1,0,0;rotate:677:1:0,1,0;rotate:678:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube113"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:679:1:1,0,0;move:680:1:0,1,0;move:681:1:0,0,1;rotate:682:1:1,0,0;rotate:683:1:0,1,0;rotate:684:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube114"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:685:1:1,0,0;move:686:1:0,1,0;move:687:1:0,0,1;rotate:688:1:1,0,0;rotate:689:1:0,1,0;rotate:690:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube115"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:691:1:1,0,0;move:692:1:0,1,0;move:693:1:0,0,1;rotate:694:1:1,0,0;rotate:695:1:0,1,0;rotate:696:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube116"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:697:1:1,0,0;move:698:1:0,1,0;move:699:1:0,0,1;rotate:700:1:1,0,0;rotate:701:1:0,1,0;rotate:702:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube117"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:703:1:1,0,0;move:704:1:0,1,0;move:705:1:0,0,1;rotate:706:1:1,0,0;rotate:707:1:0,1,0;rotate:708:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube118"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:709:1:1,0,0;move:710:1:0,1,0;move:711:1:0,0,1;rotate:712:1:1,0,0;rotate:713:1:0,1,0;rotate:714:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube119"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:715:1:1,0,0;move:716:1:0,1,0;move:717:1:0,0,1;rotate:718:1:1,0,0;rotate:719:1:0,1,0;rotate:720:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube120"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:721:1:1,0,0;move:722:1:0,1,0;move:723:1:0,0,1;rotate:724:1:1,0,0;rotate:725:1:0,1,0;rotate:726:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube121"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:727:1:1,0,0;move:728:1:0,1,0;move:729:1:0,0,1;rotate:730:1:1,0,0;rotate:731:1:0,1,0;rotate:732:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube122"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:733:1:1,0,0;move:734:1:0,1,0;move:735:1:0,0,1;rotate:736:1:1,0,0;rotate:737:1:0,1,0;rotate:738:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube123"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:739:1:1,0,0;move:740:1:0,1,0;move:741:1:0,0,1;rotate:742:1:1,0,0;rotate:743:1:0,1,0;rotate:744:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube124"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:745:1:1,0,0;move:746:1:0,1,0;move:747:1:0,0,1;rotate:748:1:1,0,0;rotate:749:1:0,1,0;rotate:750:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube125"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:751:1:1,0,0;move:752:1:0,1,0;move:753:1:0,0,1;rotate:754:1:1,0,0;rotate:755:1:0,1,0;rotate:756:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube126"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:757:1:1,0,0;move:758:1:0,1,0;move:759:1:0,0,1;rotate:760:1:1,0,0;rotate:761:1:0,1,0;rotate:762:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube127"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:763:1:1,0,0;move:764:1:0,1,0;move:765:1:0,0,1;rotate:766:1:1,0,0;rotate:767:1:0,1,0;rotate:768:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube128"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:769:1:1,0,0;move:770:1:0,1,0;move:771:1:0,0,1;rotate:772:1:1,0,0;rotate:773:1:0,1,0;rotate:774:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube129"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:775:1:1,0,0;move:776:1:0,1,0;move:777:1:0,0,1;rotate:778:1:1,0,0;rotate:779:1:0,1,0;rotate:780:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube130"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:781:1:1,0,0;move:782:1:0,1,0;move:783:1:0,0,1;rotate:784:1:1,0,0;rotate:785:1:0,1,0;rotate:786:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube131"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:787:1:1,0,0;move:788:1:0,1,0;move:789:1:0,0,1;rotate:790:1:1,0,0;rotate:791:1:0,1,0;rotate:792:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube132"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:793:1:1,0,0;move:794:1:0,1,0;move:795:1:0,0,1;rotate:796:1:1,0,0;rotate:797:1:0,1,0;rotate:798:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube133"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:799:1:1,0,0;move:800:1:0,1,0;move:801:1:0,0,1;rotate:802:1:1,0,0;rotate:803:1:0,1,0;rotate:804:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube134"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:805:1:1,0,0;move:806:1:0,1,0;move:807:1:0,0,1;rotate:808:1:1,0,0;rotate:809:1:0,1,0;rotate:810:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube135"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:811:1:1,0,0;move:812:1:0,1,0;move:813:1:0,0,1;rotate:814:1:1,0,0;rotate:815:1:0,1,0;rotate:816:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube136"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:817:1:1,0,0;move:818:1:0,1,0;move:819:1:0,0,1;rotate:820:1:1,0,0;rotate:821:1:0,1,0;rotate:822:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube137"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:823:1:1,0,0;move:824:1:0,1,0;move:825:1:0,0,1;rotate:826:1:1,0,0;rotate:827:1:0,1,0;rotate:828:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube138"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:829:1:1,0,0;move:830:1:0,1,0;move:831:1:0,0,1;rotate:832:1:1,0,0;rotate:833:1:0,1,0;rotate:834:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube139"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:835:1:1,0,0;move:836:1:0,1,0;move:837:1:0,0,1;rotate:838:1:1,0,0;rotate:839:1:0,1,0;rotate:840:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube140"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:841:1:1,0,0;move:842:1:0,1,0;move:843:1:0,0,1;rotate:844:1:1,0,0;rotate:845:1:0,1,0;rotate:846:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube141"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:847:1:1,0,0;move:848:1:0,1,0;move:849:1:0,0,1;rotate:850:1:1,0,0;rotate:851:1:0,1,0;rotate:852:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube142"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:853:1:1,0,0;move:854:1:0,1,0;move:855:1:0,0,1;rotate:856:1:1,0,0;rotate:857:1:0,1,0;rotate:858:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube143"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:859:1:1,0,0;move:860:1:0,1,0;move:861:1:0,0,1;rotate:862:1:1,0,0;rotate:863:1:0,1,0;rotate:864:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube144"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:865:1:1,0,0;move:866:1:0,1,0;move:867:1:0,0,1;rotate:868:1:1,0,0;rotate:869:1:0,1,0;rotate:870:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube145"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:871:1:1,0,0;move:872:1:0,1,0;move:873:1:0,0,1;rotate:874:1:1,0,0;rotate:875:1:0,1,0;rotate:876:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube146"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:877:1:1,0,0;move:878:1:0,1,0;move:879:1:0,0,1;rotate:880:1:1,0,0;rotate:881:1:0,1,0;rotate:882:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube147"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:883:1:1,0,0;move:884:1:0,1,0;move:885:1:0,0,1;rotate:886:1:1,0,0;rotate:887:1:0,1,0;rotate:888:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube148"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:889:1:1,0,0;move:890:1:0,1,0;move:891:1:0,0,1;rotate:892:1:1,0,0;rotate:893:1:0,1,0;rotate:894:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube149"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:895:1:1,0,0;move:896:1:0,1,0;move:897:1:0,0,1;rotate:898:1:1,0,0;rotate:899:1:0,1,0;rotate:900:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube150"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:901:1:1,0,0;move:902:1:0,1,0;move:903:1:0,0,1;rotate:904:1:1,0,0;rotate:905:1:0,1,0;rotate:906:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube151"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:907:1:1,0,0;move:908:1:0,1,0;move:909:1:0,0,1;rotate:910:1:1,0,0;rotate:911:1:0,1,0;rotate:912:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube152"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:913:1:1,0,0;move:914:1:0,1,0;move:915:1:0,0,1;rotate:916:1:1,0,0;rotate:917:1:0,1,0;rotate:918:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube153"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:919:1:1,0,0;move:920:1:0,1,0;move:921:1:0,0,1;rotate:922:1:1,0,0;rotate:923:1:0,1,0;rotate:924:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube154"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:925:1:1,0,0;move:926:1:0,1,0;move:927:1:0,0,1;rotate:928:1:1,0,0;rotate:929:1:0,1,0;rotate:930:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube155"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:931:1:1,0,0;move:932:1:0,1,0;move:933:1:0,0,1;rotate:934:1:1,0,0;rotate:935:1:0,1,0;rotate:936:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube156"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:937:1:1,0,0;move:938:1:0,1,0;move:939:1:0,0,1;rotate:940:1:1,0,0;rotate:941:1:0,1,0;rotate:942:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube157"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:943:1:1,0,0;move:944:1:0,1,0;move:945:1:0,0,1;rotate:946:1:1,0,0;rotate:947:1:0,1,0;rotate:948:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube158"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:949:1:1,0,0;move:950:1:0,1,0;move:951:1:0,0,1;rotate:952:1:1,0,0;rotate:953:1:0,1,0;rotate:954:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube159"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:955:1:1,0,0;move:956:1:0,1,0;move:957:1:0,0,1;rotate:958:1:1,0,0;rotate:959:1:0,1,0;rotate:960:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube160"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:961:1:1,0,0;move:962:1:0,1,0;move:963:1:0,0,1;rotate:964:1:1,0,0;rotate:965:1:0,1,0;rotate:966:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube161"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:967:1:1,0,0;move:968:1:0,1,0;move:969:1:0,0,1;rotate:970:1:1,0,0;rotate:971:1:0,1,0;rotate:972:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube162"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:973:1:1,0,0;move:974:1:0,1,0;move:975:1:0,0,1;rotate:976:1:1,0,0;rotate:977:1:0,1,0;rotate:978:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube163"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:979:1:1,0,0;move:980:1:0,1,0;move:981:1:0,0,1;rotate:982:1:1,0,0;rotate:983:1:0,1,0;rotate:984:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube164"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:985:1:1,0,0;move:986:1:0,1,0;move:987:1:0,0,1;rotate:988:1:1,0,0;rotate:989:1:0,1,0;rotate:990:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube165"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:991:1:1,0,0;move:992:1:0,1,0;move:993:1:0,0,1;rotate:994:1:1,0,0;rotate:995:1:0,1,0;rotate:996:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube166"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:997:1:1,0,0;move:998:1:0,1,0;move:999:1:0,0,1;rotate:1000:1:1,0,0;rotate:1001:1:0,1,0;rotate:1002:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube167"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1003:1:1,0,0;move:1004:1:0,1,0;move:1005:1:0,0,1;rotate:1006:1:1,0,0;rotate:1007:1:0,1,0;rotate:1008:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube168"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1009:1:1,0,0;move:1010:1:0,1,0;move:1011:1:0,0,1;rotate:1012:1:1,0,0;rotate:1013:1:0,1,0;rotate:1014:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube169"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1015:1:1,0,0;move:1016:1:0,1,0;move:1017:1:0,0,1;rotate:1018:1:1,0,0;rotate:1019:1:0,1,0;rotate:1020:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube170"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1021:1:1,0,0;move:1022:1:0,1,0;move:1023:1:0,0,1;rotate:1024:1:1,0,0;rotate:1025:1:0,1,0;rotate:1026:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube171"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1027:1:1,0,0;move:1028:1:0,1,0;move:1029:1:0,0,1;rotate:1030:1:1,0,0;rotate:1031:1:0,1,0;rotate:1032:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube172"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1033:1:1,0,0;move:1034:1:0,1,0;move:1035:1:0,0,1;rotate:1036:1:1,0,0;rotate:1037:1:0,1,0;rotate:1038:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube173"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1039:1:1,0,0;move:1040:1:0,1,0;move:1041:1:0,0,1;rotate:1042:1:1,0,0;rotate:1043:1:0,1,0;rotate:1044:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube174"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1045:1:1,0,0;move:1046:1:0,1,0;move:1047:1:0,0,1;rotate:1048:1:1,0,0;rotate:1049:1:0,1,0;rotate:1050:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube175"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1051:1:1,0,0;move:1052:1:0,1,0;move:1053:1:0,0,1;rotate:1054:1:1,0,0;rotate:1055:1:0,1,0;rotate:1056:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube176"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1057:1:1,0,0;move:1058:1:0,1,0;move:1059:1:0,0,1;rotate:1060:1:1,0,0;rotate:1061:1:0,1,0;rotate:1062:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube177"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1063:1:1,0,0;move:1064:1:0,1,0;move:1065:1:0,0,1;rotate:1066:1:1,0,0;rotate:1067:1:0,1,0;rotate:1068:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube178"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1069:1:1,0,0;move:1070:1:0,1,0;move:1071:1:0,0,1;rotate:1072:1:1,0,0;rotate:1073:1:0,1,0;rotate:1074:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube179"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1075:1:1,0,0;move:1076:1:0,1,0;move:1077:1:0,0,1;rotate:1078:1:1,0,0;rotate:1079:1:0,1,0;rotate:1080:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube180"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1081:1:1,0,0;move:1082:1:0,1,0;move:1083:1:0,0,1;rotate:1084:1:1,0,0;rotate:1085:1:0,1,0;rotate:1086:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube181"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1087:1:1,0,0;move:1088:1:0,1,0;move:1089:1:0,0,1;rotate:1090:1:1,0,0;rotate:1091:1:0,1,0;rotate:1092:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube182"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1093:1:1,0,0;move:1094:1:0,1,0;move:1095:1:0,0,1;rotate:1096:1:1,0,0;rotate:1097:1:0,1,0;rotate:1098:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube183"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1099:1:1,0,0;move:1100:1:0,1,0;move:1101:1:0,0,1;rotate:1102:1:1,0,0;rotate:1103:1:0,1,0;rotate:1104:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube184"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1105:1:1,0,0;move:1106:1:0,1,0;move:1107:1:0,0,1;rotate:1108:1:1,0,0;rotate:1109:1:0,1,0;rotate:1110:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube185"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1111:1:1,0,0;move:1112:1:0,1,0;move:1113:1:0,0,1;rotate:1114:1:1,0,0;rotate:1115:1:0,1,0;rotate:1116:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube186"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1117:1:1,0,0;move:1118:1:0,1,0;move:1119:1:0,0,1;rotate:1120:1:1,0,0;rotate:1121:1:0,1,0;rotate:1122:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube187"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1123:1:1,0,0;move:1124:1:0,1,0;move:1125:1:0,0,1;rotate:1126:1:1,0,0;rotate:1127:1:0,1,0;rotate:1128:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube188"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1129:1:1,0,0;move:1130:1:0,1,0;move:1131:1:0,0,1;rotate:1132:1:1,0,0;rotate:1133:1:0,1,0;rotate:1134:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube189"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1135:1:1,0,0;move:1136:1:0,1,0;move:1137:1:0,0,1;rotate:1138:1:1,0,0;rotate:1139:1:0,1,0;rotate:1140:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube190"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1141:1:1,0,0;move:1142:1:0,1,0;move:1143:1:0,0,1;rotate:1144:1:1,0,0;rotate:1145:1:0,1,0;rotate:1146:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube191"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1147:1:1,0,0;move:1148:1:0,1,0;move:1149:1:0,0,1;rotate:1150:1:1,0,0;rotate:1151:1:0,1,0;rotate:1152:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube192"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1153:1:1,0,0;move:1154:1:0,1,0;move:1155:1:0,0,1;rotate:1156:1:1,0,0;rotate:1157:1:0,1,0;rotate:1158:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube193"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1159:1:1,0,0;move:1160:1:0,1,0;move:1161:1:0,0,1;rotate:1162:1:1,0,0;rotate:1163:1:0,1,0;rotate:1164:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube194"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1165:1:1,0,0;move:1166:1:0,1,0;move:1167:1:0,0,1;rotate:1168:1:1,0,0;rotate:1169:1:0,1,0;rotate:1170:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube195"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1171:1:1,0,0;move:1172:1:0,1,0;move:1173:1:0,0,1;rotate:1174:1:1,0,0;rotate:1175:1:0,1,0;rotate:1176:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube196"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1177:1:1,0,0;move:1178:1:0,1,0;move:1179:1:0,0,1;rotate:1180:1:1,0,0;rotate:1181:1:0,1,0;rotate:1182:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube197"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1183:1:1,0,0;move:1184:1:0,1,0;move:1185:1:0,0,1;rotate:1186:1:1,0,0;rotate:1187:1:0,1,0;rotate:1188:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube198"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1189:1:1,0,0;move:1190:1:0,1,0;move:1191:1:0,0,1;rotate:1192:1:1,0,0;rotate:1193:1:0,1,0;rotate:1194:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "../../models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube199"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:1195:1:1,0,0;move:1196:1:0,1,0;move:1197:1:0,0,1;rotate:1198:1:1,0,0;rotate:1199:1:0,1,0;rotate:1200:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-		
-
-		
-
-
-
-		
+	node{
+		plugin = "Texture"
+		property = "vrc::TransformProperty"
+		property = "vrc::SceneNodeBase::PluginParameters"
+		property = "vrc::ClippingControlProperty"
+		property = "vrc::UserDataProperty"
+		property = "vrc::UnmovableProperty"
+
+		clipping_control
+		{
+			InitStatus = "2"
+			Status = "2"
+		}
+
+		node
+		{
+			plugin = "Sphere"
+			property = "vrc::TransformProperty"
+			property = "vrc::SceneNodeBase::PluginParameters"
+			property = "vrc::UserDataProperty"
+			property = "vrc::UnmovableProperty"
+
+			parameters
+			{
+				DiffuseColor = "1 1 1 1"
+				DoubleSided = "true"
+				EnableLighting = "false"
+				Radius = "500"
+				Rotate = "0 0 0"
+				Scale = "1 1 1"
+				Translate = "0 0 0"
+				Transparency = "1"
+			}
+
+			transform
+			{
+				ForceNormalizeNormals = "true"
+				InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+				Rotate = "0 -0 0"
+				Scale = "1 1 1"
+				Translate = "0 0 0"
+			}
+
+			unmovable
+			{
+				AdhereTag = ""
+				GroupName = ""
+				Overridable = "true"
+			}
+
+			user_data
+			{
+				Preset = "true"
+			}
+		}
+
+		parameters
+		{
+			ShaderUniformName = ""
+			TextureFile = "../../textures/sphere/shop.jpg"
+			Unit = "0"
+		}
+
+		transform
+		{
+			ForceNormalizeNormals = "true"
+			InitMatrix = "1 0 -0 0 -0 -4.371139e-08 -1 0 0 1 -4.371139e-08 0 0 0 0 1"
+			Rotate = "-90 0 0"
+			Scale = "1 1 1"
+			Translate = "0 0 0"
+		}
+
+		unmovable
+		{
+			AdhereTag = ""
+			GroupName = ""
+			Overridable = "true"
+		}
+
+		user_data
+		{
+			Preset = "true"
+		}
 	}
 }
