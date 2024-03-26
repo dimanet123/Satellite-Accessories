@@ -9,43 +9,41 @@ UDP_IP = "127.0.0.1"
 UDP_PORT = 6501
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-n_masses = 3 
-objects = [Object3D() for _ in range(n_masses)]  # Создаем 7 объектов Object3D
+num_all = 200
+# Определяем количество объектов по осям x и y
+numObjX = 20
+numObjY = 10  # Можно изменять для прямоугольной формы
+numObj = numObjX * numObjY  # Общее количество объектов
 
-dimensions = 3  
-
-# Массы
-masses = [1.0,1,1]
-
-# Соединения и жёсткости пружин: (масса 1, масса 2, жёсткость)
-springs = [(0, 1, 100), (1, 2, 100), (2, 0, 100)]
-
-
-dot = oscil(n_masses,dimensions,masses,springs)
+objects = [Object3D() for _ in range(num_all)]
 
 t = 0
-number_form = 6
+mode_x = 3
+mode_y = 3
+x_len = numObjX - 1
+y_len = numObjY - 1
 
-matrix_form = dot[0]
-eigenvalues = np.sqrt(dot[1])
-
-# Объявление функции перемещения
-def x(t, number_form,num_func):
-    return matrix_form[num_func - 1,number_form] * np.cos(eigenvalues[number_form]*t)
+for i, obj in enumerate(objects):
+    obj.move_abs(-1000, -1000, -1000)
+    
+buf = bytes()
+DAT = [1.0] + [data for obj in objects for data in obj.form_udp()]
+sock.sendto(buf, (UDP_IP, UDP_PORT))
 
 while True:
-    for i, obj in enumerate(objects):
-        offset = [5, -5, 5, -5, 5, -5]  # Пример смещения для разных объектов
-        if i < len(offset):
-            delta = offset[i]
-        else:
-            delta = 0
-        obj.move_abs(x(t, number_form - 1, 3*i + 1) + delta, x(t, number_form - 1, 3*i + 2) + delta, x(t, number_form - 1, 3*i + 3) + delta)
+    index = 0
+    for y_coord in range(numObjY):
+        y_eq = y_coord * 2  # Умножение на 2 для соответствия с предыдущим подходом по y_coord
+        for x_coord in range(numObjX):
+            x_eq = x_coord*2
+            if index < len(objects):  # Проверка, чтобы избежать выхода за пределы списка
+                obj = objects[index]
+                obj.move_abs(x_eq, np.sin(np.pi*x_coord*mode_x/x_len)*np.sin(np.pi*y_eq*mode_y/y_len) * np.sin(t), y_eq)
+                index += 1
 
     # Собираем данные всех объектов
     DAT = [1.0] + [data for obj in objects for data in obj.form_udp()]
-
-    # Упаковываем и отправляем данные
+    
     buf = bytes()
     for val in DAT:
         buf += struct.pack('<d', val)

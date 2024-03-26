@@ -65,6 +65,22 @@ def oscil(n_masses,dimensions,masses,springs):
                 K[idx1, idx2] -= stiffness
                 K[idx2, idx1] -= stiffness
 
+
+        # Закрепление первого блока
+        # if n_masses > 0:
+        #     for i in range(5):
+        #         null = 1e-9
+        #         K[i, 0] = 1/null  # Установка большого значения для имитации жёсткого закрепления
+        #         K[0, i] = 1/null
+        #         M[i, 0] = null  # Установка большого значения для имитации жёсткого закрепления
+        #         M[0, i] = null
+        
+        K = np.delete(K, 0, axis=0)  # Удаляем строку
+        K = np.delete(K, 0, axis=1)  # Удаляем столбец
+        
+        M = np.delete(M, 0, axis=0)  # Удаляем строку
+        M = np.delete(M, 0, axis=1)  # Удаляем столбец
+
         # Вывод матрицы масс и жёсткости
         print("Матрица масс M:")
         print(M)
