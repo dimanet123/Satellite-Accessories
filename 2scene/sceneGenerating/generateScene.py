@@ -1,14 +1,11 @@
 import os
 import platform
-delim = '/' if 'Linux' in platform.system() else f'\\'
-path = os.getcwd()
-pathToModelDir = f"{os.path.dirname(os.path.dirname(path))}{delim}models{delim}"
+
+pathToModelDir = '../../models/'
 
 model = 'cube.obj'
+
 pathToMainModel = f'{pathToModelDir}{model}'
-pathToMainModel = pathToMainModel.replace('\\', '/')
-
-
 
 # Let's define a function to add new models to the existing scene_manager section
 def generate_complete_file(n, original_filename="patternForGenerating.vrcp", new_filename="outPutFile.vrcp"):
