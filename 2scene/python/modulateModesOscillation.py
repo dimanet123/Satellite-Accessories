@@ -11,24 +11,28 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 num_all = 200
 # Определяем количество объектов по осям x и y
-numObjX = 20
+numObjX = 10
 numObjY = 10  # Можно изменять для прямоугольной формы
 numObj = numObjX * numObjY  # Общее количество объектов
+
+start_height = 2
 
 objects = [Object3D() for _ in range(num_all)]
 
 t = 0
-mode_x = 3
-mode_y = 3
+mode_x = 1
+mode_y = 1
 x_len = numObjX - 1
 y_len = numObjY - 1
 
-for i, obj in enumerate(objects):
-    obj.move_abs(-1000, -1000, -1000)
-    
-buf = bytes()
-DAT = [1.0] + [data for obj in objects for data in obj.form_udp()]
-sock.sendto(buf, (UDP_IP, UDP_PORT))
+def refresh_coord():
+    for i, obj in enumerate(objects):
+        obj.move_abs(-1000, -1000, -1000)
+    buf = bytes()
+    DAT = [1.0] + [data for obj in objects for data in obj.form_udp()]
+    sock.sendto(buf, (UDP_IP, UDP_PORT))
+
+refresh_coord()
 
 while True:
     index = 0
@@ -38,7 +42,7 @@ while True:
             x_eq = x_coord*2
             if index < len(objects):  # Проверка, чтобы избежать выхода за пределы списка
                 obj = objects[index]
-                obj.move_abs(x_eq, np.sin(np.pi*x_coord*mode_x/x_len)*np.sin(np.pi*y_eq*mode_y/y_len) * np.sin(t), y_eq)
+                obj.move_abs(x_eq- x_len , np.sin(np.pi*x_coord*mode_x/x_len)*np.sin(np.pi*y_eq*mode_y/y_len) * np.sin(t) + start_height, y_eq - y_len)
                 index += 1
 
     # Собираем данные всех объектов
