@@ -684,7 +684,7 @@ scene_manager
 			node
 			{
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
 				property = "vrc::ModelLoaderProperty"
 				property = "vrc::SimulatedProperty"
@@ -732,7 +732,7 @@ scene_manager
 			node
 			{
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
 				property = "vrc::ModelLoaderProperty"
 				property = "vrc::SimulatedProperty"
@@ -780,7 +780,7 @@ scene_manager
 			node
 			{
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				file = "../../models/cube.obj"
 				property = "vrc::TransformProperty"
 				property = "vrc::ModelLoaderProperty"
 				property = "vrc::SimulatedProperty"

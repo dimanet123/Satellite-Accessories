@@ -8,7 +8,7 @@ model = 'cube.obj'
 pathToMainModel = f'{pathToModelDir}{model}'
 
 # Let's define a function to add new models to the existing scene_manager section
-def generate_complete_file(n, original_filename="patternForGenerating.vrcp", new_filename="outPutFile.vrcp"):
+def generate_complete_file(n, original_filename="patternForGenerating.vrcp", new_filename="outputFile.vrcp"):
     # Read the original content
     with open(original_filename, "r") as file:
         original_content = file.read()
