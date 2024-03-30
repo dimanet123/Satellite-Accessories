@@ -1,7 +1,7 @@
 import numpy as np
 
 class Object3D:
-    def __init__(self, x=0, y=0, z=0, rotation_x=0, rotation_y=0, rotation_z=0, mass=1, free_x = 1, free_y = 1, free_z = 1, force_x = 0, force_y = 0, force_z = 0, freq = 1):
+    def __init__(self, x=1, y=1, z=1, rotation_x=0, rotation_y=0, rotation_z=0, mass=1, free_x = 1, free_y = 1, free_z = 1, force_x = 0, force_y = 0, force_z = 0, freq = 1):
         self.x = x
         self.y = y
         self.z = z
@@ -116,3 +116,48 @@ def update_system(objects, connections, spring_constants, rest_lengths, dt, damp
         periodic_force(obj, forces, timer)
         ax, ay, az = forces[obj] / obj.mass
         obj.update_velocity_and_position_Verle(ax, ay, az, dt)
+       
+class Spring:
+    def __init__(self, x1=0, y1=0, z1=0, x2=0, y2=0, z2=0, basic_length=1.61):
+        self.x1 = x1
+        self.y1 = y1
+        self.z1 = z1
+        self.x2 = x2
+        self.y2 = y2
+        self.z2 = z2
+        self.basic_length = max(basic_length, 1e-6)
+        self.rotation_x = 0
+        self.rotation_y = 0
+        self.rotation_z = 0
+        
+    def angle_between_vectors(v1, v2):
+        unit_v1 = v1 / np.linalg.norm(v1)
+        unit_v2 = v2 / np.linalg.norm(v2)
+        dot_product = np.dot(unit_v1, unit_v2)
+        angle = np.arccos(np.clip(dot_product, -1.0, 1.0))  # Клипаем для стабильности
+        return angle
+
+    def calc_length(self):
+        return np.sqrt((self.x2 - self.x1)**2 + (self.y2 - self.y1)**2 + (self.z2 - self.z1)**2)
+
+    def calc_scale(self):
+        return self.calc_length() / self.basic_length
+
+    def calc_rotations(self):
+        # Вычисляем целевой вектор
+        target_vector = np.array([self.x2 - self.x1, self.y2 - self.y1, self.z2 - self.z1], dtype=np.float64)
+        target_vector_normalized = target_vector / np.linalg.norm(target_vector)
+        
+        # Вычисляем углы поворота
+        theta = np.arctan2(target_vector_normalized[0], target_vector_normalized[2])  # Поворот вокруг оси Y
+        phi = np.arcsin(-target_vector_normalized[1])  # Поворот вокруг оси X
+        
+        # Присваиваем рассчитанные углы (переводим в градусы для удобства)
+        self.rotation_x = np.rad2deg(phi)
+        self.rotation_y = np.rad2deg(theta)
+        self.rotation_z = 0  # Предполагаем, что вращение вокруг оси Z не требуется
+
+    def form_udp(self):
+        self.calc_rotations()
+        # Возвращаем данные о повороте и масштабе, а затем о позиции
+        return [self.x1, self.y1, self.z1, float(self.rotation_x), float(self.rotation_y), self.calc_scale()]

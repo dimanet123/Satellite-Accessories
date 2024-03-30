@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import sys
 sys.path.insert(0, '../../python_classes/')
-from class_3dobject import Object3D, calculate_force, update_system
+from class_3dobject import Object3D, calculate_force, update_system, Spring
 
 UDP_IP = "127.0.0.1"
 UDP_PORT = 6501
@@ -33,17 +33,22 @@ def refresh_coord():
 
 refresh_coord()
     
-object1 = Object3D(mass=1,x = 0, free_y = 0)
-object2 = Object3D(mass=1,x = 10, free_y = 0)
-object3 = Object3D(mass=1,x = 5, z = 8.66, y = 0, free_y= 0)
-object4 = Object3D(mass=1,x = 5, z = 2.89, y = 8.16, free_x = 0, free_z = 0, free_y = 1, force_y = 100, freq = 19)
+object1 = Object3D(mass=1,x = 1, free_y = 0)
+object2 = Object3D(mass=1,x = 11, free_y = 0)
+object3 = Object3D(mass=1,x = 6, z = 9.66, free_y= 0)
+object4 = Object3D(mass=1,x = 6, z = 3.89, y = 10.16, free_x = 0, free_z = 0, free_y = 1, force_y = 100, freq = 19)
 objects = [object1, object2, object3, object4]  # Создаем два объекта
 connections = [(0, 1),(1,2),(0,2),(3,0),(3,1),(3,2)]  # Связываем их
 spring_constants = [100,100,100,100,100,100]  # Коэффициент упругости
 rest_lengths = [9,9,9,9,9,9]  # Ненагруженная длина пружины
 dt = 0.001  # Шаг времени
-time_animation = 0.05
+time_animation = 0.01
 time_div = int(time_animation/dt)
+
+spring_objects = []
+
+for spring in range(len(connections)):
+    spring_objects.append(Spring())
 
 
 
@@ -88,13 +93,14 @@ timer = 0
 
 while True:
     start_time = time.time()
-    
+        
     for i in range(time_div):
-        update_system(objects, connections, spring_constants, rest_lengths, dt, 0, timer)
+        update_system(objects, connections, spring_constants, rest_lengths, dt, 1, timer)
         timer += dt
     
-    
-        
+    for i, (num1, num2) in enumerate(connections):
+        spring_objects[i].x1, spring_objects[i].y1, spring_objects[i].z1 = objects[num1].x, objects[num1].y, objects[num1].z
+        spring_objects[i].x2, spring_objects[i].y2, spring_objects[i].z2 = objects[num2].x, objects[num2].y, objects[num2].z
     # Ваш код здесь
     end_time = time.time()
     time_dif = end_time - start_time
@@ -103,6 +109,9 @@ while True:
     DAT = [0]
     for obj in objects:
         DAT += obj.form_udp()
+    
+    for spring in spring_objects:
+        DAT += spring.form_udp()
     
     send_udp_data(DAT)
     # for obj in objects:

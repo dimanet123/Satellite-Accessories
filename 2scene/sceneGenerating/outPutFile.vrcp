@@ -876,7 +876,7 @@ scene_manager
 			node
 			{
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
 				property = "vrc::TransformProperty"
 				property = "vrc::ModelLoaderProperty"
 				property = "vrc::SimulatedProperty"
@@ -887,7 +887,7 @@ scene_manager
 					EnableLODs = "false"
 					ForceNoBackfaceCulling = "false"
 					ForceNormalizeNormals = "true"
-					ModelName = "cube4"
+					ModelName = "spring4"
 					Rotate = "0 0 0"
 					Scale = "1 1 1"
 					Translate = "0 0 0"
@@ -905,7 +905,7 @@ scene_manager
 					ShowCaption = "false"
 					ShowWindow = "true"
 					ValueCount = "6"
-					ValueStrings = "move:25:1:1,0,0;move:26:1:0,1,0;move:27:1:0,0,1;rotate:28:1:1,0,0;rotate:29:1:0,1,0;rotate:30:1:0,0,1"
+					ValueStrings = "move:25:1:1,0,0;move:26:1:0,1,0;move:27:1:0,0,1;rotate:28:1:1,0,0;rotate:29:1:0,1,0;scale:30:1:0,0,1"
 					WindowPosition = "0 0 0"
 					WindowRotate = "0 -0 0"
 					WindowWidth = "0"
@@ -924,7 +924,7 @@ scene_manager
 			node
 			{
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
 				property = "vrc::TransformProperty"
 				property = "vrc::ModelLoaderProperty"
 				property = "vrc::SimulatedProperty"
@@ -935,7 +935,7 @@ scene_manager
 					EnableLODs = "false"
 					ForceNoBackfaceCulling = "false"
 					ForceNormalizeNormals = "true"
-					ModelName = "cube5"
+					ModelName = "spring5"
 					Rotate = "0 0 0"
 					Scale = "1 1 1"
 					Translate = "0 0 0"
@@ -953,7 +953,7 @@ scene_manager
 					ShowCaption = "false"
 					ShowWindow = "true"
 					ValueCount = "6"
-					ValueStrings = "move:31:1:1,0,0;move:32:1:0,1,0;move:33:1:0,0,1;rotate:34:1:1,0,0;rotate:35:1:0,1,0;rotate:36:1:0,0,1"
+					ValueStrings = "move:31:1:1,0,0;move:32:1:0,1,0;move:33:1:0,0,1;rotate:34:1:1,0,0;rotate:35:1:0,1,0;scale:36:1:0,0,1"
 					WindowPosition = "0 0 0"
 					WindowRotate = "0 -0 0"
 					WindowWidth = "0"
@@ -972,7 +972,7 @@ scene_manager
 			node
 			{
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
 				property = "vrc::TransformProperty"
 				property = "vrc::ModelLoaderProperty"
 				property = "vrc::SimulatedProperty"
@@ -983,7 +983,7 @@ scene_manager
 					EnableLODs = "false"
 					ForceNoBackfaceCulling = "false"
 					ForceNormalizeNormals = "true"
-					ModelName = "cube6"
+					ModelName = "spring6"
 					Rotate = "0 0 0"
 					Scale = "1 1 1"
 					Translate = "0 0 0"
@@ -1001,7 +1001,7 @@ scene_manager
 					ShowCaption = "false"
 					ShowWindow = "true"
 					ValueCount = "6"
-					ValueStrings = "move:37:1:1,0,0;move:38:1:0,1,0;move:39:1:0,0,1;rotate:40:1:1,0,0;rotate:41:1:0,1,0;rotate:42:1:0,0,1"
+					ValueStrings = "move:37:1:1,0,0;move:38:1:0,1,0;move:39:1:0,0,1;rotate:40:1:1,0,0;rotate:41:1:0,1,0;scale:42:1:0,0,1"
 					WindowPosition = "0 0 0"
 					WindowRotate = "0 -0 0"
 					WindowWidth = "0"
@@ -1020,7 +1020,7 @@ scene_manager
 			node
 			{
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
 				property = "vrc::TransformProperty"
 				property = "vrc::ModelLoaderProperty"
 				property = "vrc::SimulatedProperty"
@@ -1031,7 +1031,7 @@ scene_manager
 					EnableLODs = "false"
 					ForceNoBackfaceCulling = "false"
 					ForceNormalizeNormals = "true"
-					ModelName = "cube7"
+					ModelName = "spring7"
 					Rotate = "0 0 0"
 					Scale = "1 1 1"
 					Translate = "0 0 0"
@@ -1049,7 +1049,7 @@ scene_manager
 					ShowCaption = "false"
 					ShowWindow = "true"
 					ValueCount = "6"
-					ValueStrings = "move:43:1:1,0,0;move:44:1:0,1,0;move:45:1:0,0,1;rotate:46:1:1,0,0;rotate:47:1:0,1,0;rotate:48:1:0,0,1"
+					ValueStrings = "move:43:1:1,0,0;move:44:1:0,1,0;move:45:1:0,0,1;rotate:46:1:1,0,0;rotate:47:1:0,1,0;scale:48:1:0,0,1"
 					WindowPosition = "0 0 0"
 					WindowRotate = "0 -0 0"
 					WindowWidth = "0"
@@ -1068,7 +1068,7 @@ scene_manager
 			node
 			{
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
 				property = "vrc::TransformProperty"
 				property = "vrc::ModelLoaderProperty"
 				property = "vrc::SimulatedProperty"
@@ -1079,7 +1079,7 @@ scene_manager
 					EnableLODs = "false"
 					ForceNoBackfaceCulling = "false"
 					ForceNormalizeNormals = "true"
-					ModelName = "cube8"
+					ModelName = "spring8"
 					Rotate = "0 0 0"
 					Scale = "1 1 1"
 					Translate = "0 0 0"
@@ -1097,7 +1097,7 @@ scene_manager
 					ShowCaption = "false"
 					ShowWindow = "true"
 					ValueCount = "6"
-					ValueStrings = "move:49:1:1,0,0;move:50:1:0,1,0;move:51:1:0,0,1;rotate:52:1:1,0,0;rotate:53:1:0,1,0;rotate:54:1:0,0,1"
+					ValueStrings = "move:49:1:1,0,0;move:50:1:0,1,0;move:51:1:0,0,1;rotate:52:1:1,0,0;rotate:53:1:0,1,0;scale:54:1:0,0,1"
 					WindowPosition = "0 0 0"
 					WindowRotate = "0 -0 0"
 					WindowWidth = "0"
@@ -1116,7 +1116,7 @@ scene_manager
 			node
 			{
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
 				property = "vrc::TransformProperty"
 				property = "vrc::ModelLoaderProperty"
 				property = "vrc::SimulatedProperty"
@@ -1127,7 +1127,7 @@ scene_manager
 					EnableLODs = "false"
 					ForceNoBackfaceCulling = "false"
 					ForceNormalizeNormals = "true"
-					ModelName = "cube9"
+					ModelName = "spring9"
 					Rotate = "0 0 0"
 					Scale = "1 1 1"
 					Translate = "0 0 0"
@@ -1145,823 +1145,7 @@ scene_manager
 					ShowCaption = "false"
 					ShowWindow = "true"
 					ValueCount = "6"
-					ValueStrings = "move:55:1:1,0,0;move:56:1:0,1,0;move:57:1:0,0,1;rotate:58:1:1,0,0;rotate:59:1:0,1,0;rotate:60:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube10"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:61:1:1,0,0;move:62:1:0,1,0;move:63:1:0,0,1;rotate:64:1:1,0,0;rotate:65:1:0,1,0;rotate:66:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube11"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:67:1:1,0,0;move:68:1:0,1,0;move:69:1:0,0,1;rotate:70:1:1,0,0;rotate:71:1:0,1,0;rotate:72:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube12"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:73:1:1,0,0;move:74:1:0,1,0;move:75:1:0,0,1;rotate:76:1:1,0,0;rotate:77:1:0,1,0;rotate:78:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube13"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:79:1:1,0,0;move:80:1:0,1,0;move:81:1:0,0,1;rotate:82:1:1,0,0;rotate:83:1:0,1,0;rotate:84:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube14"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:85:1:1,0,0;move:86:1:0,1,0;move:87:1:0,0,1;rotate:88:1:1,0,0;rotate:89:1:0,1,0;rotate:90:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube15"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:91:1:1,0,0;move:92:1:0,1,0;move:93:1:0,0,1;rotate:94:1:1,0,0;rotate:95:1:0,1,0;rotate:96:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube16"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:97:1:1,0,0;move:98:1:0,1,0;move:99:1:0,0,1;rotate:100:1:1,0,0;rotate:101:1:0,1,0;rotate:102:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube17"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:103:1:1,0,0;move:104:1:0,1,0;move:105:1:0,0,1;rotate:106:1:1,0,0;rotate:107:1:0,1,0;rotate:108:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube18"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:109:1:1,0,0;move:110:1:0,1,0;move:111:1:0,0,1;rotate:112:1:1,0,0;rotate:113:1:0,1,0;rotate:114:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube19"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:115:1:1,0,0;move:116:1:0,1,0;move:117:1:0,0,1;rotate:118:1:1,0,0;rotate:119:1:0,1,0;rotate:120:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube20"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:121:1:1,0,0;move:122:1:0,1,0;move:123:1:0,0,1;rotate:124:1:1,0,0;rotate:125:1:0,1,0;rotate:126:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube21"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:127:1:1,0,0;move:128:1:0,1,0;move:129:1:0,0,1;rotate:130:1:1,0,0;rotate:131:1:0,1,0;rotate:132:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube22"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:133:1:1,0,0;move:134:1:0,1,0;move:135:1:0,0,1;rotate:136:1:1,0,0;rotate:137:1:0,1,0;rotate:138:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube23"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:139:1:1,0,0;move:140:1:0,1,0;move:141:1:0,0,1;rotate:142:1:1,0,0;rotate:143:1:0,1,0;rotate:144:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube24"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:145:1:1,0,0;move:146:1:0,1,0;move:147:1:0,0,1;rotate:148:1:1,0,0;rotate:149:1:0,1,0;rotate:150:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube25"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:151:1:1,0,0;move:152:1:0,1,0;move:153:1:0,0,1;rotate:154:1:1,0,0;rotate:155:1:0,1,0;rotate:156:1:0,0,1"
-					WindowPosition = "0 0 0"
-					WindowRotate = "0 -0 0"
-					WindowWidth = "0"
-				}
-
-				transform
-				{
-					ForceNormalizeNormals = "true"
-					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
-					Rotate = "0 -0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-			}
-
-			node
-			{
-				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
-				property = "vrc::TransformProperty"
-				property = "vrc::ModelLoaderProperty"
-				property = "vrc::SimulatedProperty"
-
-				model_loader
-				{
-					EnableBlending = "false"
-					EnableLODs = "false"
-					ForceNoBackfaceCulling = "false"
-					ForceNormalizeNormals = "true"
-					ModelName = "cube26"
-					Rotate = "0 0 0"
-					Scale = "1 1 1"
-					Translate = "0 0 0"
-				}
-
-				simulated
-				{
-					AttachWindowPosition = "false"
-					CaptionText = ""
-					FeedbackValueCount = "0"
-					FeedbackValueStrings = ""
-					GroupName = ""
-					Overridable = "true"
-					RemovePropertyOnClose = "false"
-					ShowCaption = "false"
-					ShowWindow = "true"
-					ValueCount = "6"
-					ValueStrings = "move:157:1:1,0,0;move:158:1:0,1,0;move:159:1:0,0,1;rotate:160:1:1,0,0;rotate:161:1:0,1,0;rotate:162:1:0,0,1"
+					ValueStrings = "move:55:1:1,0,0;move:56:1:0,1,0;move:57:1:0,0,1;rotate:58:1:1,0,0;rotate:59:1:0,1,0;scale:60:1:0,0,1"
 					WindowPosition = "0 0 0"
 					WindowRotate = "0 -0 0"
 					WindowWidth = "0"
