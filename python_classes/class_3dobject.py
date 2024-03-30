@@ -1,7 +1,7 @@
 import numpy as np
 
 class Object3D:
-    def __init__(self, x=0, y=0, z=0, rotation_x=0, rotation_y=0, rotation_z=0, mass=1 ):
+    def __init__(self, x=0, y=0, z=0, rotation_x=0, rotation_y=0, rotation_z=0, mass=1, free_x = 1, free_y = 1, free_z = 1, force_x = 0, force_y = 0, force_z = 0, freq = 1):
         self.x = x
         self.y = y
         self.z = z
@@ -13,18 +13,16 @@ class Object3D:
         self.rotation_y = rotation_y
         self.rotation_z = rotation_z
         self.mass = mass  # масса объекта
-
-    # def update_velocity_and_position(self, ax, ay, az, dt):
-    #     # Обновляем скорость
-    #     self.vx += ax * dt
-    #     self.vy += ay * dt
-    #     self.vz += az * dt
-    #     # Обновляем положение
-    #     self.x += self.vx * dt
-    #     self.y += self.vy * dt
-    #     self.z += self.vz * dt
-    
-    def update_velocity_and_position(self, ax, ay, az, dt):
+        self.free_x = free_x
+        self.free_y = free_y
+        self.free_z = free_z
+        self.force_x = force_x
+        self.force_y = force_y
+        self.force_z = force_z
+        self.freq = freq
+        
+        
+    def update_velocity_and_position_RK(self, ax, ay, az, dt):
         # Начальные скорости и положения
         vx0, vy0, vz0 = self.vx, self.vy, self.vz
         x0, y0, z0 = self.x, self.y, self.z
@@ -52,6 +50,28 @@ class Object3D:
         self.y += (k1_y + 2*k2_y + 2*k3_y + k4_y) / 6
         self.z += (k1_z + 2*k2_z + 2*k3_z + k4_z) / 6
         
+    
+    def update_velocity_and_position_Verle(self, ax, ay, az, dt):
+        # Сохраняем предыдущие положения
+        if not hasattr(self, 'prev_x'):
+            self.prev_x, self.prev_y, self.prev_z = self.x, self.y, self.z
+
+        # Вычисляем следующие положения используя метод Верле
+        next_x = 2*self.x - self.prev_x + ax*dt**2
+        next_y = 2*self.y - self.prev_y + ay*dt**2
+        next_z = 2*self.z - self.prev_z + az*dt**2
+
+        # Обновляем скорости
+        self.vx = (next_x - self.prev_x) / (2*dt)
+        self.vy = (next_y - self.prev_y) / (2*dt)
+        self.vz = (next_z - self.prev_z) / (2*dt)
+
+        # Обновляем предыдущие положения
+        self.prev_x, self.prev_y, self.prev_z = self.x, self.y, self.z
+
+        # Обновляем текущие положения
+        self.x, self.y, self.z = self.x * (1 - self.free_x) + next_x * self.free_x, self.y * (1 - self.free_y) + next_y* self.free_y, self.z * (1 - self.free_z) + next_z* self.free_z
+        
     def form_udp(self):
         dat = [self.x, self.y, self.z, self.rotation_x,
                self.rotation_y, self.rotation_z]
@@ -74,7 +94,12 @@ def calculate_force(object1, object2, spring_constant, rest_length):
     fz = force_magnitude * (dz / distance)
     return fx, fy, fz
 
-def update_system(objects, connections, spring_constants, rest_lengths, dt, damping_coefficient):
+def periodic_force(objct,forces, timer):
+    forces[objct][0] += objct.force_x * np.sin(objct.freq * timer)
+    forces[objct][1] += objct.force_y * np.sin(objct.freq * timer)
+    forces[objct][2] += objct.force_z * np.sin(objct.freq * timer)
+
+def update_system(objects, connections, spring_constants, rest_lengths, dt, damping_coefficient, timer):
     # Подготавливаем массив для хранения результирующих сил
     forces = {obj: np.array([0.0, 0.0, 0.0]) for obj in objects}
     
@@ -88,5 +113,6 @@ def update_system(objects, connections, spring_constants, rest_lengths, dt, damp
     
     # Обновляем скорости и положения объектов
     for obj in objects:
+        periodic_force(obj, forces, timer)
         ax, ay, az = forces[obj] / obj.mass
-        obj.update_velocity_and_position(ax, ay, az, dt)
+        obj.update_velocity_and_position_Verle(ax, ay, az, dt)
