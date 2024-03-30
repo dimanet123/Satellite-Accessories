@@ -29,6 +29,11 @@ dt = 0.001/100  # Шаг времени
 time_animation = 0.05
 time_div = int(time_animation/dt)
 
+def calculate_total_energy(objects, connections, spring_constants, rest_lengths):
+    total_kinetic_energy = sum(0.5 * obj.mass * (obj.vx**2 + obj.vy**2 + obj.vz**2) for obj in objects)
+    total_potential_energy = sum(0.5 * k * (np.sqrt((objects[i].x - objects[j].x)**2 + (objects[i].y - objects[j].y)**2 + (objects[i].z - objects[j].z)**2) - l)**2 for (i, j), k, l in zip(connections, spring_constants, rest_lengths))
+    return total_kinetic_energy + total_potential_energy
+
 def create_cube(width, height, depth, mass=1, spring_constant=10, rest_length=10):
     objects = []
     connections = []
@@ -67,11 +72,14 @@ while True:
     
     for i in range(time_div):
         update_system(objects, connections, spring_constants, rest_lengths, dt, 0)
+    
+    
         
     # Ваш код здесь
     end_time = time.time()
     time_dif = end_time - start_time
     print(f'{time_div},{time_dif}')
+    print(f'Энергия системы грузов: {calculate_total_energy} Дж')
     DAT = [0]
     for obj in objects:
         DAT += obj.form_udp()
