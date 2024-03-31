@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "86a5cd3cd1b59dda",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6c42b505f06972e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec73fabedeee383b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2scene/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "af613173bbe38e9d",
+    "type": "split",
+    "children": [
+      {
+        "id": "4512332411dac7f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d98a91c4390b2684",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "640e434bd6273c80",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "46b088992f96899d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d8dc92dc476a08ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ec5da5723c0e32d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "08d38747e8338905",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2scene/README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1323fd46fbf202b8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2scene/README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "677019bb9b3a0c85",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "30e7ba21481d388d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2scene/README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "ec73fabedeee383b",
+  "lastOpenFiles": [
+    "2scene/python/mode_shapes.py",
+    "2scene/python",
+    "2scene/Новая папка",
+    "2scene/tmpgqemcx20",
+    "2scene/mode_shapes.py",
+    "sceneGenerating/codeForTesting/class_3dobject.py",
+    "sceneGenerating/codeForTesting/balka.py",
+    "sceneGenerating/patternForGenerating.vrcp",
+    "sceneGenerating/outPutFile.vrcp",
+    "sceneGenerating/generateScene.py",
+    "sceneGenerating/codeForTesting",
+    "1scene/README.md"
+  ]
+}

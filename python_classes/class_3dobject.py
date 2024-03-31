@@ -161,4 +161,69 @@ class Spring:
     def form_udp(self):
         self.calc_rotations()
         # Возвращаем данные о повороте и масштабе, а затем о позиции
-        return [self.x1, self.y1, self.z1, float(self.rotation_x), float(self.rotation_y), self.calc_scale()]
+        return [self.x1, self.y1, self.z1, float(self.rotation_x), float(self.rotation_y), float(self.rotation_z), self.calc_scale()]
+
+def oscil(n_masses,dimensions,masses,springs):
+        # Создание матрицы масс
+        M = np.diag([mass for mass in masses for _ in range(dimensions)])
+
+        # Инициализация матрицы жёсткости
+        K = np.zeros((n_masses * dimensions, n_masses * dimensions))
+
+        # Заполнение матрицы жёсткости
+        for mass1, mass2, stiffness in springs:
+            for dim in range(dimensions):
+                idx1, idx2 = mass1 * dimensions + dim, mass2 * dimensions + dim
+                K[idx1, idx1] += stiffness
+                K[idx2, idx2] += stiffness
+                K[idx1, idx2] -= stiffness
+                K[idx2, idx1] -= stiffness
+
+        # Вывод матрицы масс и жёсткости
+        print("Матрица масс M:")
+        print(M)
+        print("\nМатрица жёсткости K:")
+        print(K)
+        
+        # Создание матрицы
+        matrix_K = K
+        matrix_K[0,0] = 1e9
+        matrix_K[1,1] = 1e9
+        matrix_K[2,2] = 1e9
+        
+        matrix_M = M
+        
+        diagonal_elements = np.diag(matrix_M)
+        
+        matrix_base = matrix_K / diagonal_elements[:, np.newaxis]
+
+        # Находим собственные значения и собственные векторы
+        eigenvalues, eigenvectors = np.linalg.eig(matrix_base)
+        eigenvalues = np.sort(eigenvalues, axis=0)
+        threshold = 1e-10
+        eigenvalues = eigenvalues.real
+        eigenvectors = eigenvectors.real
+        eigenvalues = np.where(abs(eigenvalues) < threshold, 0, eigenvalues)
+        eigenvectors = np.where(abs(eigenvectors) < threshold, 0, eigenvectors)
+        
+        matrix_form = eigenvectors
+        
+        x1_0 = 0
+        x2_0 = 0
+        x3_0 = 0
+        x4_0 = 0
+        x5_0 = 0
+        xx1_0 = 0
+        xx2_0 = 0
+        xx3_0 = 0
+        xx4_0 = 0
+        xx5_0 = 10
+
+        # matrix = np.array([[x1_0, xx1_0],[x2_0, xx2_0],[x3_0, xx3_0], [x4_0, xx4_0]])
+
+        # coord_const = np.linalg.solve(matrix_form, matrix[:, 0])
+        # speed_const = np.linalg.solve(matrix_form, matrix[:, 1])
+            
+            
+        dat = [matrix_form, eigenvalues]
+        return dat
