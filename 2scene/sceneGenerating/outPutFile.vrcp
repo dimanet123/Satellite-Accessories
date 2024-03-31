@@ -876,7 +876,7 @@ scene_manager
 			node
 			{
 				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
 				property = "vrc::TransformProperty"
 				property = "vrc::ModelLoaderProperty"
 				property = "vrc::SimulatedProperty"
@@ -887,7 +887,7 @@ scene_manager
 					EnableLODs = "false"
 					ForceNoBackfaceCulling = "false"
 					ForceNormalizeNormals = "true"
-					ModelName = "spring4"
+					ModelName = "cube4"
 					Rotate = "0 0 0"
 					Scale = "1 1 1"
 					Translate = "0 0 0"
@@ -905,7 +905,1063 @@ scene_manager
 					ShowCaption = "false"
 					ShowWindow = "true"
 					ValueCount = "6"
-					ValueStrings = "move:25:1:1,0,0;move:26:1:0,1,0;move:27:1:0,0,1;rotate:28:1:1,0,0;rotate:29:1:0,1,0;scale:30:1:0,0,1"
+					ValueStrings = "move:25:1:1,0,0;move:26:1:0,1,0;move:27:1:0,0,1;rotate:28:1:1,0,0;rotate:29:1:0,1,0;rotate:30:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "cube5"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:31:1:1,0,0;move:32:1:0,1,0;move:33:1:0,0,1;rotate:34:1:1,0,0;rotate:35:1:0,1,0;rotate:36:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "cube6"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:37:1:1,0,0;move:38:1:0,1,0;move:39:1:0,0,1;rotate:40:1:1,0,0;rotate:41:1:0,1,0;rotate:42:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "cube7"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:43:1:1,0,0;move:44:1:0,1,0;move:45:1:0,0,1;rotate:46:1:1,0,0;rotate:47:1:0,1,0;rotate:48:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "cube8"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:49:1:1,0,0;move:50:1:0,1,0;move:51:1:0,0,1;rotate:52:1:1,0,0;rotate:53:1:0,1,0;rotate:54:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "cube9"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:55:1:1,0,0;move:56:1:0,1,0;move:57:1:0,0,1;rotate:58:1:1,0,0;rotate:59:1:0,1,0;rotate:60:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "cube10"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:61:1:1,0,0;move:62:1:0,1,0;move:63:1:0,0,1;rotate:64:1:1,0,0;rotate:65:1:0,1,0;rotate:66:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "cube11"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:67:1:1,0,0;move:68:1:0,1,0;move:69:1:0,0,1;rotate:70:1:1,0,0;rotate:71:1:0,1,0;rotate:72:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "cube12"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:73:1:1,0,0;move:74:1:0,1,0;move:75:1:0,0,1;rotate:76:1:1,0,0;rotate:77:1:0,1,0;rotate:78:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "cube13"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:79:1:1,0,0;move:80:1:0,1,0;move:81:1:0,0,1;rotate:82:1:1,0,0;rotate:83:1:0,1,0;rotate:84:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "cube14"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:85:1:1,0,0;move:86:1:0,1,0;move:87:1:0,0,1;rotate:88:1:1,0,0;rotate:89:1:0,1,0;rotate:90:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "cube15"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:91:1:1,0,0;move:92:1:0,1,0;move:93:1:0,0,1;rotate:94:1:1,0,0;rotate:95:1:0,1,0;rotate:96:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "cube16"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:97:1:1,0,0;move:98:1:0,1,0;move:99:1:0,0,1;rotate:100:1:1,0,0;rotate:101:1:0,1,0;rotate:102:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "cube17"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:103:1:1,0,0;move:104:1:0,1,0;move:105:1:0,0,1;rotate:106:1:1,0,0;rotate:107:1:0,1,0;rotate:108:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "cube18"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:109:1:1,0,0;move:110:1:0,1,0;move:111:1:0,0,1;rotate:112:1:1,0,0;rotate:113:1:0,1,0;rotate:114:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "cube19"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:115:1:1,0,0;move:116:1:0,1,0;move:117:1:0,0,1;rotate:118:1:1,0,0;rotate:119:1:0,1,0;rotate:120:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "cube20"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:121:1:1,0,0;move:122:1:0,1,0;move:123:1:0,0,1;rotate:124:1:1,0,0;rotate:125:1:0,1,0;rotate:126:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "cube21"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:127:1:1,0,0;move:128:1:0,1,0;move:129:1:0,0,1;rotate:130:1:1,0,0;rotate:131:1:0,1,0;rotate:132:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "cube22"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:133:1:1,0,0;move:134:1:0,1,0;move:135:1:0,0,1;rotate:136:1:1,0,0;rotate:137:1:0,1,0;rotate:138:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "cube23"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:139:1:1,0,0;move:140:1:0,1,0;move:141:1:0,0,1;rotate:142:1:1,0,0;rotate:143:1:0,1,0;rotate:144:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "cube24"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:145:1:1,0,0;move:146:1:0,1,0;move:147:1:0,0,1;rotate:148:1:1,0,0;rotate:149:1:0,1,0;rotate:150:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "cube25"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:151:1:1,0,0;move:152:1:0,1,0;move:153:1:0,0,1;rotate:154:1:1,0,0;rotate:155:1:0,1,0;rotate:156:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "cube26"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:157:1:1,0,0;move:158:1:0,1,0;move:159:1:0,0,1;rotate:160:1:1,0,0;rotate:161:1:0,1,0;rotate:162:1:0,0,1"
 					WindowPosition = "0 0 0"
 					WindowRotate = "0 -0 0"
 					WindowWidth = "0"
@@ -935,7 +1991,7 @@ scene_manager
 					EnableLODs = "false"
 					ForceNoBackfaceCulling = "false"
 					ForceNormalizeNormals = "true"
-					ModelName = "spring5"
+					ModelName = "spring27"
 					Rotate = "0 0 0"
 					Scale = "1 1 1"
 					Translate = "0 0 0"
@@ -953,7 +2009,7 @@ scene_manager
 					ShowCaption = "false"
 					ShowWindow = "true"
 					ValueCount = "6"
-					ValueStrings = "move:31:1:1,0,0;move:32:1:0,1,0;move:33:1:0,0,1;rotate:34:1:1,0,0;rotate:35:1:0,1,0;scale:36:1:0,0,1"
+					ValueStrings = "move:163:1:1,0,0;move:164:1:0,1,0;move:165:1:0,0,1;rotate:166:1.001:1,0,0;rotate:167:1.001:0,1,0;scale:168:1:0,0,1"
 					WindowPosition = "0 0 0"
 					WindowRotate = "0 -0 0"
 					WindowWidth = "0"
@@ -983,7 +2039,7 @@ scene_manager
 					EnableLODs = "false"
 					ForceNoBackfaceCulling = "false"
 					ForceNormalizeNormals = "true"
-					ModelName = "spring6"
+					ModelName = "spring28"
 					Rotate = "0 0 0"
 					Scale = "1 1 1"
 					Translate = "0 0 0"
@@ -1001,7 +2057,7 @@ scene_manager
 					ShowCaption = "false"
 					ShowWindow = "true"
 					ValueCount = "6"
-					ValueStrings = "move:37:1:1,0,0;move:38:1:0,1,0;move:39:1:0,0,1;rotate:40:1:1,0,0;rotate:41:1:0,1,0;scale:42:1:0,0,1"
+					ValueStrings = "move:169:1:1,0,0;move:170:1:0,1,0;move:171:1:0,0,1;rotate:172:1.001:1,0,0;rotate:173:1.001:0,1,0;scale:174:1:0,0,1"
 					WindowPosition = "0 0 0"
 					WindowRotate = "0 -0 0"
 					WindowWidth = "0"
@@ -1031,7 +2087,7 @@ scene_manager
 					EnableLODs = "false"
 					ForceNoBackfaceCulling = "false"
 					ForceNormalizeNormals = "true"
-					ModelName = "spring7"
+					ModelName = "spring29"
 					Rotate = "0 0 0"
 					Scale = "1 1 1"
 					Translate = "0 0 0"
@@ -1049,7 +2105,7 @@ scene_manager
 					ShowCaption = "false"
 					ShowWindow = "true"
 					ValueCount = "6"
-					ValueStrings = "move:43:1:1,0,0;move:44:1:0,1,0;move:45:1:0,0,1;rotate:46:1:1,0,0;rotate:47:1:0,1,0;scale:48:1:0,0,1"
+					ValueStrings = "move:175:1:1,0,0;move:176:1:0,1,0;move:177:1:0,0,1;rotate:178:1.001:1,0,0;rotate:179:1.001:0,1,0;scale:180:1:0,0,1"
 					WindowPosition = "0 0 0"
 					WindowRotate = "0 -0 0"
 					WindowWidth = "0"
@@ -1079,7 +2135,7 @@ scene_manager
 					EnableLODs = "false"
 					ForceNoBackfaceCulling = "false"
 					ForceNormalizeNormals = "true"
-					ModelName = "spring8"
+					ModelName = "spring30"
 					Rotate = "0 0 0"
 					Scale = "1 1 1"
 					Translate = "0 0 0"
@@ -1097,7 +2153,7 @@ scene_manager
 					ShowCaption = "false"
 					ShowWindow = "true"
 					ValueCount = "6"
-					ValueStrings = "move:49:1:1,0,0;move:50:1:0,1,0;move:51:1:0,0,1;rotate:52:1:1,0,0;rotate:53:1:0,1,0;scale:54:1:0,0,1"
+					ValueStrings = "move:181:1:1,0,0;move:182:1:0,1,0;move:183:1:0,0,1;rotate:184:1.001:1,0,0;rotate:185:1.001:0,1,0;scale:186:1:0,0,1"
 					WindowPosition = "0 0 0"
 					WindowRotate = "0 -0 0"
 					WindowWidth = "0"
@@ -1127,7 +2183,7 @@ scene_manager
 					EnableLODs = "false"
 					ForceNoBackfaceCulling = "false"
 					ForceNormalizeNormals = "true"
-					ModelName = "spring9"
+					ModelName = "spring31"
 					Rotate = "0 0 0"
 					Scale = "1 1 1"
 					Translate = "0 0 0"
@@ -1145,7 +2201,2359 @@ scene_manager
 					ShowCaption = "false"
 					ShowWindow = "true"
 					ValueCount = "6"
-					ValueStrings = "move:55:1:1,0,0;move:56:1:0,1,0;move:57:1:0,0,1;rotate:58:1:1,0,0;rotate:59:1:0,1,0;scale:60:1:0,0,1"
+					ValueStrings = "move:187:1:1,0,0;move:188:1:0,1,0;move:189:1:0,0,1;rotate:190:1.001:1,0,0;rotate:191:1.001:0,1,0;scale:192:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring32"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:193:1:1,0,0;move:194:1:0,1,0;move:195:1:0,0,1;rotate:196:1.001:1,0,0;rotate:197:1.001:0,1,0;scale:198:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring33"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:199:1:1,0,0;move:200:1:0,1,0;move:201:1:0,0,1;rotate:202:1.001:1,0,0;rotate:203:1.001:0,1,0;scale:204:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring34"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:205:1:1,0,0;move:206:1:0,1,0;move:207:1:0,0,1;rotate:208:1.001:1,0,0;rotate:209:1.001:0,1,0;scale:210:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring35"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:211:1:1,0,0;move:212:1:0,1,0;move:213:1:0,0,1;rotate:214:1.001:1,0,0;rotate:215:1.001:0,1,0;scale:216:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring36"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:217:1:1,0,0;move:218:1:0,1,0;move:219:1:0,0,1;rotate:220:1.001:1,0,0;rotate:221:1.001:0,1,0;scale:222:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring37"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:223:1:1,0,0;move:224:1:0,1,0;move:225:1:0,0,1;rotate:226:1.001:1,0,0;rotate:227:1.001:0,1,0;scale:228:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring38"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:229:1:1,0,0;move:230:1:0,1,0;move:231:1:0,0,1;rotate:232:1.001:1,0,0;rotate:233:1.001:0,1,0;scale:234:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring39"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:235:1:1,0,0;move:236:1:0,1,0;move:237:1:0,0,1;rotate:238:1.001:1,0,0;rotate:239:1.001:0,1,0;scale:240:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring40"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:241:1:1,0,0;move:242:1:0,1,0;move:243:1:0,0,1;rotate:244:1.001:1,0,0;rotate:245:1.001:0,1,0;scale:246:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring41"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:247:1:1,0,0;move:248:1:0,1,0;move:249:1:0,0,1;rotate:250:1.001:1,0,0;rotate:251:1.001:0,1,0;scale:252:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring42"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:253:1:1,0,0;move:254:1:0,1,0;move:255:1:0,0,1;rotate:256:1.001:1,0,0;rotate:257:1.001:0,1,0;scale:258:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring43"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:259:1:1,0,0;move:260:1:0,1,0;move:261:1:0,0,1;rotate:262:1.001:1,0,0;rotate:263:1.001:0,1,0;scale:264:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring44"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:265:1:1,0,0;move:266:1:0,1,0;move:267:1:0,0,1;rotate:268:1.001:1,0,0;rotate:269:1.001:0,1,0;scale:270:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring45"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:271:1:1,0,0;move:272:1:0,1,0;move:273:1:0,0,1;rotate:274:1.001:1,0,0;rotate:275:1.001:0,1,0;scale:276:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring46"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:277:1:1,0,0;move:278:1:0,1,0;move:279:1:0,0,1;rotate:280:1.001:1,0,0;rotate:281:1.001:0,1,0;scale:282:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring47"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:283:1:1,0,0;move:284:1:0,1,0;move:285:1:0,0,1;rotate:286:1.001:1,0,0;rotate:287:1.001:0,1,0;scale:288:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring48"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:289:1:1,0,0;move:290:1:0,1,0;move:291:1:0,0,1;rotate:292:1.001:1,0,0;rotate:293:1.001:0,1,0;scale:294:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring49"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:295:1:1,0,0;move:296:1:0,1,0;move:297:1:0,0,1;rotate:298:1.001:1,0,0;rotate:299:1.001:0,1,0;scale:300:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring50"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:301:1:1,0,0;move:302:1:0,1,0;move:303:1:0,0,1;rotate:304:1.001:1,0,0;rotate:305:1.001:0,1,0;scale:306:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring51"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:307:1:1,0,0;move:308:1:0,1,0;move:309:1:0,0,1;rotate:310:1.001:1,0,0;rotate:311:1.001:0,1,0;scale:312:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring52"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:313:1:1,0,0;move:314:1:0,1,0;move:315:1:0,0,1;rotate:316:1.001:1,0,0;rotate:317:1.001:0,1,0;scale:318:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring53"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:319:1:1,0,0;move:320:1:0,1,0;move:321:1:0,0,1;rotate:322:1.001:1,0,0;rotate:323:1.001:0,1,0;scale:324:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring54"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:325:1:1,0,0;move:326:1:0,1,0;move:327:1:0,0,1;rotate:328:1.001:1,0,0;rotate:329:1.001:0,1,0;scale:330:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring55"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:331:1:1,0,0;move:332:1:0,1,0;move:333:1:0,0,1;rotate:334:1.001:1,0,0;rotate:335:1.001:0,1,0;scale:336:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring56"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:337:1:1,0,0;move:338:1:0,1,0;move:339:1:0,0,1;rotate:340:1.001:1,0,0;rotate:341:1.001:0,1,0;scale:342:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring57"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:343:1:1,0,0;move:344:1:0,1,0;move:345:1:0,0,1;rotate:346:1.001:1,0,0;rotate:347:1.001:0,1,0;scale:348:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring58"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:349:1:1,0,0;move:350:1:0,1,0;move:351:1:0,0,1;rotate:352:1.001:1,0,0;rotate:353:1.001:0,1,0;scale:354:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring59"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:355:1:1,0,0;move:356:1:0,1,0;move:357:1:0,0,1;rotate:358:1.001:1,0,0;rotate:359:1.001:0,1,0;scale:360:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring60"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:361:1:1,0,0;move:362:1:0,1,0;move:363:1:0,0,1;rotate:364:1.001:1,0,0;rotate:365:1.001:0,1,0;scale:366:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring61"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:367:1:1,0,0;move:368:1:0,1,0;move:369:1:0,0,1;rotate:370:1.001:1,0,0;rotate:371:1.001:0,1,0;scale:372:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring62"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:373:1:1,0,0;move:374:1:0,1,0;move:375:1:0,0,1;rotate:376:1.001:1,0,0;rotate:377:1.001:0,1,0;scale:378:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring63"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:379:1:1,0,0;move:380:1:0,1,0;move:381:1:0,0,1;rotate:382:1.001:1,0,0;rotate:383:1.001:0,1,0;scale:384:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring64"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:385:1:1,0,0;move:386:1:0,1,0;move:387:1:0,0,1;rotate:388:1.001:1,0,0;rotate:389:1.001:0,1,0;scale:390:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring65"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:391:1:1,0,0;move:392:1:0,1,0;move:393:1:0,0,1;rotate:394:1.001:1,0,0;rotate:395:1.001:0,1,0;scale:396:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring66"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:397:1:1,0,0;move:398:1:0,1,0;move:399:1:0,0,1;rotate:400:1.001:1,0,0;rotate:401:1.001:0,1,0;scale:402:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring67"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:403:1:1,0,0;move:404:1:0,1,0;move:405:1:0,0,1;rotate:406:1.001:1,0,0;rotate:407:1.001:0,1,0;scale:408:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring68"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:409:1:1,0,0;move:410:1:0,1,0;move:411:1:0,0,1;rotate:412:1.001:1,0,0;rotate:413:1.001:0,1,0;scale:414:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring69"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:415:1:1,0,0;move:416:1:0,1,0;move:417:1:0,0,1;rotate:418:1.001:1,0,0;rotate:419:1.001:0,1,0;scale:420:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring70"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:421:1:1,0,0;move:422:1:0,1,0;move:423:1:0,0,1;rotate:424:1.001:1,0,0;rotate:425:1.001:0,1,0;scale:426:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring71"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:427:1:1,0,0;move:428:1:0,1,0;move:429:1:0,0,1;rotate:430:1.001:1,0,0;rotate:431:1.001:0,1,0;scale:432:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring72"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:433:1:1,0,0;move:434:1:0,1,0;move:435:1:0,0,1;rotate:436:1.001:1,0,0;rotate:437:1.001:0,1,0;scale:438:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring73"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:439:1:1,0,0;move:440:1:0,1,0;move:441:1:0,0,1;rotate:442:1.001:1,0,0;rotate:443:1.001:0,1,0;scale:444:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring74"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:445:1:1,0,0;move:446:1:0,1,0;move:447:1:0,0,1;rotate:448:1.001:1,0,0;rotate:449:1.001:0,1,0;scale:450:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring75"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:451:1:1,0,0;move:452:1:0,1,0;move:453:1:0,0,1;rotate:454:1.001:1,0,0;rotate:455:1.001:0,1,0;scale:456:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring76"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:457:1:1,0,0;move:458:1:0,1,0;move:459:1:0,0,1;rotate:460:1.001:1,0,0;rotate:461:1.001:0,1,0;scale:462:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring77"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:463:1:1,0,0;move:464:1:0,1,0;move:465:1:0,0,1;rotate:466:1.001:1,0,0;rotate:467:1.001:0,1,0;scale:468:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring78"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:469:1:1,0,0;move:470:1:0,1,0;move:471:1:0,0,1;rotate:472:1.001:1,0,0;rotate:473:1.001:0,1,0;scale:474:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring79"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:475:1:1,0,0;move:476:1:0,1,0;move:477:1:0,0,1;rotate:478:1.001:1,0,0;rotate:479:1.001:0,1,0;scale:480:1:0,0,1"
+					WindowPosition = "0 0 0"
+					WindowRotate = "0 -0 0"
+					WindowWidth = "0"
+				}
+
+				transform
+				{
+					ForceNormalizeNormals = "true"
+					InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+					Rotate = "0 -0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+			}
+
+			node
+			{
+				cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+				file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/spring.3DXML"
+				property = "vrc::TransformProperty"
+				property = "vrc::ModelLoaderProperty"
+				property = "vrc::SimulatedProperty"
+
+				model_loader
+				{
+					EnableBlending = "false"
+					EnableLODs = "false"
+					ForceNoBackfaceCulling = "false"
+					ForceNormalizeNormals = "true"
+					ModelName = "spring80"
+					Rotate = "0 0 0"
+					Scale = "1 1 1"
+					Translate = "0 0 0"
+				}
+
+				simulated
+				{
+					AttachWindowPosition = "false"
+					CaptionText = ""
+					FeedbackValueCount = "0"
+					FeedbackValueStrings = ""
+					GroupName = ""
+					Overridable = "true"
+					RemovePropertyOnClose = "false"
+					ShowCaption = "false"
+					ShowWindow = "true"
+					ValueCount = "6"
+					ValueStrings = "move:481:1:1,0,0;move:482:1:0,1,0;move:483:1:0,0,1;rotate:484:1.001:1,0,0;rotate:485:1.001:0,1,0;scale:486:1:0,0,1"
 					WindowPosition = "0 0 0"
 					WindowRotate = "0 -0 0"
 					WindowWidth = "0"

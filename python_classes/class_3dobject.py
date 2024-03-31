@@ -1,7 +1,7 @@
 import numpy as np
 
 class Object3D:
-    def __init__(self, x=1, y=1, z=1, rotation_x=0, rotation_y=0, rotation_z=0, mass=1, free_x = 1, free_y = 1, free_z = 1, force_x = 0, force_y = 0, force_z = 0, freq = 1):
+    def __init__(self, x=0, y=0, z=0, rotation_x=0, rotation_y=0, rotation_z=0, mass=1, free_x = 1, free_y = 1, free_z = 1, force_x = 0, force_y = 0, force_z = 0, freq = 1):
         self.x = x
         self.y = y
         self.z = z
@@ -93,6 +93,7 @@ def calculate_force(object1, object2, spring_constant, rest_length):
     fy = force_magnitude * (dy / distance)
     fz = force_magnitude * (dz / distance)
     return fx, fy, fz
+
 
 def periodic_force(objct,forces, timer):
     forces[objct][0] += objct.force_x * np.sin(objct.freq * timer)

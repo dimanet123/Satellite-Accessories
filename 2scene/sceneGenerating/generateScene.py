@@ -129,7 +129,7 @@ def generate_complete_file(n_cubes, n_springs, original_filename="patternForGene
 \t\t\t\t\tShowCaption = "false"
 \t\t\t\t\tShowWindow = "true"
 \t\t\t\t\tValueCount = "6"
-\t\t\t\t\tValueStrings = "move:{i*6+1}:1:1,0,0;move:{i*6+2}:1:0,1,0;move:{i*6+3}:1:0,0,1;rotate:{i*6+4}:1:1,0,0;rotate:{i*6+5}:1:0,1,0;scale:{i*6+6}:1:0,0,1"
+\t\t\t\t\tValueStrings = "move:{i*6+1}:1:1,0,0;move:{i*6+2}:1:0,1,0;move:{i*6+3}:1:0,0,1;rotate:{i*6+4}:1.001:1,0,0;rotate:{i*6+5}:1.001:0,1,0;scale:{i*6+6}:1:0,0,1"
 \t\t\t\t\tWindowPosition = "0 0 0"
 \t\t\t\t\tWindowRotate = "0 -0 0"
 \t\t\t\t\tWindowWidth = "0"
@@ -155,4 +155,4 @@ def generate_complete_file(n_cubes, n_springs, original_filename="patternForGene
 
 # Assuming 'original_file.rcp' exists and contains the provided content,
 # this will add 5 new models to it and save as 'complete_file.rcp'
-generate_complete_file(4,6)
+generate_complete_file(27,54)
