@@ -34,7 +34,7 @@ for spring in range(len(springs)):
 
 dot = oscil(n_masses,dimensions,masses,springs)
 
-start_height = 5.5
+start_height = 7
 t = 0
 number_form = 12
 

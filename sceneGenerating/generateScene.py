@@ -160,4 +160,4 @@ def generate_complete_file(n_cubes, n_springs, original_filename="patternForGene
     with open(new_filename, "w") as new_file:
         new_file.write(complete_content)
 
-generate_complete_file(7,6)
+generate_complete_file(4,6)
