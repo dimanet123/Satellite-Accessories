@@ -104,7 +104,7 @@ start_height = 1
 object1 = Object3D(mass=1, y = start_height, free_y = 0)
 object2 = Object3D(mass=1,x = 10, y = start_height, free_y = 0)
 object3 = Object3D(mass=1,x = 5, z = 8.66, y = start_height,   free_y= 0)
-object4 = Object3D(mass=1,x = 5, z = 2.89, y = 8.16 + start_height, free_x = 0, free_z = 0, free_y = 1, force_y = 2, freq = 20)
+object4 = Object3D(mass=1,x = 5, z = 2.89, y = 8.16 + start_height, free_x = 0, free_z = 0, free_y = 1, force_y = 20, freq = 19.2)
 objects = [object1, object2, object3, object4]  # Создаем два объекта
 connections = [(0, 1),(1,2),(0,2),(3,0),(3,1),(3,2)]  # Связываем их
 spring_constants = [100,100,100,100,100,100]  # Коэффициент упругости
@@ -154,6 +154,38 @@ def calculate_total_energy(objects, connections, spring_constants, rest_lengths)
 
 
 # Выводим новые положения и скорости объектов
+
+arrows = [(object1, '-y')]
+arrow_objects = []
+
+def generate_arrows(arrows):
+    for i, (object_arrow_link, axis) in enumerate(arrows):
+        arrow_objects.append(Object3D())
+        if axis == '+x':
+            arrow_objects[i].rotation_z = 90
+            arrow_objects[i].free_x = -0.5
+        if axis == '-x':
+            arrow_objects[i].rotation_z = -90
+            arrow_objects[i].free_x = 0.5
+        if axis == '+y':
+            arrow_objects[i].rotation_z = 180
+            arrow_objects[i].free_y = -0.5
+        if axis == '-y':
+            pass
+            arrow_objects[i].free_y = 0.5
+        if axis == '+z':
+            arrow_objects[i].rotation_x = -90
+            arrow_objects[i].free_z = 0.5
+        if axis == '-z':
+            arrow_objects[i].rotation_x = 90
+            arrow_objects[i].free_z = -0.5
+
+generate_arrows(arrows)
+def move_arrow(arrow, object_link):
+    arrow.x = object_link.x + object_link.free_x
+    arrow.y = object_link.y + object_link.free_y
+    arrow.z = object_link.z + object_link.free_z
+    
 for obj in objects:
     print(obj)
     
@@ -174,6 +206,9 @@ while True:
     for i, (num1, num2) in enumerate(connections):
         spring_objects[i].x1, spring_objects[i].y1, spring_objects[i].z1 = objects[num1].x, objects[num1].y, objects[num1].z
         spring_objects[i].x2, spring_objects[i].y2, spring_objects[i].z2 = objects[num2].x, objects[num2].y, objects[num2].z
+    
+    move_arrow(arrow_objects[0], object4)
+        
     # Ваш код здесь
     end_time = time.time()
     time_dif = end_time - start_time
@@ -185,6 +220,8 @@ while True:
     
     for spring in spring_objects:
         DAT += spring.form_udp()
+        
+    DAT += arrow_objects[0].form_udp()
     
     send_udp_data(DAT)
     # for obj in objects:

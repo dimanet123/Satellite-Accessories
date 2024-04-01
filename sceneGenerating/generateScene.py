@@ -12,8 +12,12 @@ model_spring = 'spring.3DXML'
 pathToSpring = f'{pathToModelDir}{model_spring}'
 pathToSpring = pathToSpring.replace('\\', '/')
 
+model_arrow = 'arrow.3DXML'
+pathToArrow = f'{pathToModelDir}{model_arrow}'
+pathToArrow = pathToArrow.replace('\\', '/')
 
-def generate_complete_file(n_cubes, n_springs, original_filename="patternForGenerating.vrcp", new_filename="outPutFile.vrcp"):
+
+def generate_complete_file(n_cubes = 0, n_springs = 0, n_arrows = 0, original_filename="patternForGenerating.vrcp", new_filename="outPutFile.vrcp"):
     # Read the original content
     with open(original_filename, "r") as file:
         original_content = file.read()
@@ -152,6 +156,62 @@ def generate_complete_file(n_cubes, n_springs, original_filename="patternForGene
         }}\n'''
         new_nodes += new_node
         ticker_springs += 7
+        
+    # Update the ticker for springs based on the number of cubes added
+    ticker_arrows = ticker_springs * 7
+
+    # Generate nodes for springs
+    for i in range(n_arrows):
+        new_node = f'''
+        node
+        {{
+            cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
+            file = "{pathToArrow}"
+            property = "vrc::TransformProperty"
+            property = "vrc::ModelLoaderProperty"
+            property = "vrc::SimulatedProperty"
+
+            model_loader
+            {{
+                EnableBlending = "false"
+                EnableLODs = "false"
+                ForceNoBackfaceCulling = "false"
+                ForceNormalizeNormals = "true"
+                ModelName = "arrow{i}"
+                Rotate = "0 0 0"
+                Scale = "0.001 0.001 0.001"
+                Translate = "0 0 0"
+            }}
+
+            simulated
+            {{
+                AttachWindowPosition = "false"
+                CaptionText = ""
+                FeedbackValueCount = "0"
+                FeedbackValueStrings = ""
+                GroupName = ""
+                Overridable = "true"
+                RemovePropertyOnClose = "false"
+                ShowCaption = "false"
+                ShowWindow = "true"
+                ValueCount = "7"
+                ValueStrings = "move:{ticker_springs+1}:1:1,0,0;move:{ticker_springs+2}:1:0,1,0;move:{ticker_springs+3}:1:0,0,1;rotate:{ticker_springs+4}:1.001:1,0,0;rotate:{ticker_springs+5}:1.001:0,1,0;rotate:{ticker_springs+6}:1.001:0,0,1"
+                WindowPosition = "0 0 0"
+                WindowRotate = "0 -0 0"
+                WindowWidth = "0"
+            }}
+
+            transform
+            {{
+                ForceNormalizeNormals = "true"
+                InitMatrix = "1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"
+                Rotate = "0 -0 0"
+                Scale = "1 1 1"
+                Translate = "0 0 0"
+            }}
+        }}\n'''
+        new_nodes += new_node
+        ticker_arrows += 6
 
     # Insert the new nodes into the original content
     complete_content = original_content[:insert_pos] + new_nodes + original_content[insert_pos:]
@@ -160,4 +220,4 @@ def generate_complete_file(n_cubes, n_springs, original_filename="patternForGene
     with open(new_filename, "w") as new_file:
         new_file.write(complete_content)
 
-generate_complete_file(4,6)
+generate_complete_file(n_cubes = 4, n_springs = 6, n_arrows = 1)
