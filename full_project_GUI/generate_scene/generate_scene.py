@@ -17,7 +17,7 @@ pathToArrow = f'{pathToModelDir}{model_arrow}'
 pathToArrow = pathToArrow.replace('\\', '/')
 
 
-def generate_complete_file(n_cubes = 0, n_springs = 0, n_arrows = 0, original_filename="patternForGenerating.vrcp", new_filename="outPutFile.vrcp"):
+def generate_complete_file(n_cubes = 0, n_springs = 0, n_arrows = 0, original_filename="generate_scene/patternForGenerating.vrcp", new_filename="generate_scene/outPutFile.vrcp"):
     # Read the original content
     with open(original_filename, "r") as file:
         original_content = file.read()
@@ -67,7 +67,7 @@ def generate_complete_file(n_cubes = 0, n_springs = 0, n_arrows = 0, original_fi
                 ForceNormalizeNormals = "true"
                 ModelName = "cube{i}"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }}
 

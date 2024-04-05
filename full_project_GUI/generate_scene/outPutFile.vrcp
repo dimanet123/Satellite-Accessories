@@ -684,7 +684,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -697,7 +697,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube0"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -732,7 +732,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -745,7 +745,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube1"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -780,7 +780,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -793,7 +793,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube2"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -828,7 +828,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -841,7 +841,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube3"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -876,7 +876,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -889,7 +889,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube4"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -924,7 +924,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -937,7 +937,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube5"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -972,7 +972,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -985,7 +985,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube6"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -1020,7 +1020,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -1033,7 +1033,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube7"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -1068,7 +1068,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -1081,7 +1081,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube8"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -1116,7 +1116,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -1129,7 +1129,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube9"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -1164,7 +1164,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -1177,7 +1177,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube10"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -1212,7 +1212,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -1225,7 +1225,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube11"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -1260,7 +1260,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -1273,7 +1273,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube12"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -1308,7 +1308,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -1321,7 +1321,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube13"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -1356,7 +1356,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -1369,7 +1369,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube14"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -1404,7 +1404,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -1417,7 +1417,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube15"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -1452,7 +1452,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -1465,7 +1465,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube16"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -1500,7 +1500,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -1513,7 +1513,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube17"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -1548,7 +1548,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -1561,7 +1561,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube18"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -1596,7 +1596,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -1609,7 +1609,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube19"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -1644,7 +1644,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -1657,7 +1657,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube20"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -1692,7 +1692,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -1705,7 +1705,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube21"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -1740,7 +1740,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -1753,7 +1753,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube22"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -1788,7 +1788,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -1801,7 +1801,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube23"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -1836,7 +1836,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -1849,7 +1849,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube24"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -1884,7 +1884,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -1897,7 +1897,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube25"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
@@ -1932,7 +1932,7 @@ scene_manager
         node
         {
             cached_model_guid = "2934EE4AEC487E4AAB9364D465F607B1"
-            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.obj"
+            file = "C:/Users/Dimas/Documents/GitHub/VRConept_elephats/models/cube.3DXML"
             property = "vrc::TransformProperty"
             property = "vrc::ModelLoaderProperty"
             property = "vrc::SimulatedProperty"
@@ -1945,7 +1945,7 @@ scene_manager
                 ForceNormalizeNormals = "true"
                 ModelName = "cube26"
                 Rotate = "0 0 0"
-                Scale = "1 1 1"
+                Scale = "2 2 2"
                 Translate = "0 0 0"
             }
 
