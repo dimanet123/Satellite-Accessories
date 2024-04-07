@@ -161,7 +161,7 @@ def generate_arrows(arrows):
 generate_arrows(arrows)
 def move_arrow(arrow, object_link):
     arrow.x = object_link.x
-    arrow.y = object_link.y
+    arrow.y = object_link.y - 0.5
     arrow.z = object_link.z
     
 timer = 0

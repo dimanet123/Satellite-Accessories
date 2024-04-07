@@ -34,7 +34,7 @@ def simulate_oscillation_control(number_form, control_event):
     eigenvalues = np.sqrt(dot[1])
     start_height = 7
     t = 0
-    default_offset = 2
+    default_offset = 4
 
     def x(t, form, func):
         return matrix_form[func - 1, form] * np.cos(eigenvalues[form] * t)
@@ -61,7 +61,7 @@ def simulate_oscillation_control(number_form, control_event):
         for spring in spring_objects:
             DAT += spring.form_udp()
             
-        print('Отправка UDP')
+        
         def send_udp_data(DAT):
             # Упаковываем массив данных в байты
             buf = struct.pack('<' + 'd' * len(DAT), *DAT)

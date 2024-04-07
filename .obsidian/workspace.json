@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2scene/README.md",
+                "file": "2scene/Инструкция по использованию.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2scene/README.md",
+                "file": "2scene/Инструкция по использованию.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2scene/README.md",
+                "file": "2scene/Инструкция по использованию.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2scene/README.md"
+                "file": "2scene/Инструкция по использованию.md"
               }
             }
           }
@@ -148,17 +148,27 @@
   },
   "active": "ec73fabedeee383b",
   "lastOpenFiles": [
-    "2scene/python/mode_shapes.py",
-    "2scene/python",
-    "2scene/Новая папка",
-    "2scene/tmpgqemcx20",
-    "2scene/mode_shapes.py",
-    "sceneGenerating/codeForTesting/class_3dobject.py",
-    "sceneGenerating/codeForTesting/balka.py",
-    "sceneGenerating/patternForGenerating.vrcp",
-    "sceneGenerating/outPutFile.vrcp",
-    "sceneGenerating/generateScene.py",
-    "sceneGenerating/codeForTesting",
+    "картинки/Pasted image 20240407122534.png",
+    "картинки/Pasted image 20240407122528.png",
+    "картинки/Pasted image 20240407122519.png",
+    "картинки/Pasted image 20240407122505.png",
+    "картинки/Pasted image 20240407122449.png",
+    "картинки/Pasted image 20240407122438.png",
+    "картинки/Pasted image 20240407085502.png",
+    "картинки/Pasted image 20240407085342.png",
+    "картинки/Pasted image 20240407085316.png",
+    "картинки/Pasted image 20240407084112.png",
+    "картинки/Pasted image 20240407084101.png",
+    "картинки",
+    "Новая папка",
+    "full_project_GUI/for distribution/scenes/3_scene/3_3scene.vrcpa",
+    "full_project_GUI/for distribution/scenes/3_scene/3_2scene.vrcpa",
+    "full_project_GUI/for distribution/scenes/3_scene/3_1scene.vrcpa",
+    "full_project_GUI/for distribution/scenes/2_scene/2_scene.vrcpa",
+    "full_project_GUI/for distribution/scenes/1_scene/1_scene.vrcpa",
+    "full_project_GUI/for distribution/pyarmor_runtime_000000/__pycache__/__init__.cpython-311.pyc",
+    "full_project_GUI/for distribution/python_classes/__pycache__/thread_controller.cpython-311.pyc",
+    "full_project_GUI/for distribution/python_classes/__pycache__/class_3dobject.cpython-311.pyc",
     "1scene/README.md"
   ]
 }
