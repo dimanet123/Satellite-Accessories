@@ -2,7 +2,7 @@ import os
 import platform
 delim = '/' if 'Linux' in platform.system() else f'\\'
 path = os.getcwd()
-pathToModelDir = f"{os.path.dirname(path)}{delim}models{delim}"
+pathToModelDir = f"..{delim}models{delim}"
 
 model_cube = 'cube.3DXML'
 pathToCube = f'{pathToModelDir}{model_cube}'

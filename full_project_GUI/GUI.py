@@ -8,8 +8,7 @@ import numpy as np
 import sys
 import time
 sys.path.append('generate_scene/')
-sys.path.append('2_scene/')
-sys.path.append('3_scene/')
+sys.path.append('python_codes/')
 sys.path.insert(0, 'python_classes/')
 from class_3dobject import Object3D, oscil, Spring
 from thread_controller import ThreadController
@@ -149,6 +148,35 @@ start_button_3_3.grid(row=3, column=1)
 stop_button_3_3 = tk.Button(third_scene_frame_3, text="Стоп", command=stop_scene_3_3)
 stop_button_3_3.grid(row=3, column=2)
 
-# Если вам нужны другие разделы, просто создайте для них свои фреймы по аналогии с scene_generation_frame
+def on_close():
+    # Остановить потоки, если они запущены
+    if thread_2_scene.is_running():
+        try:
+            thread_2_scene.stop()
+        except Exception as e:
+            print(f"Ошибка при остановке thread_2_scene: {e}")
+    
+    if thread_3_scene.is_running():
+        try:
+            thread_3_scene.stop()
+        except Exception as e:
+            print(f"Ошибка при остановке thread_3_scene: {e}")
+    
+    if thread_4_scene.is_running():
+        try:
+            thread_4_scene.stop()
+        except Exception as e:
+            print(f"Ошибка при остановке thread_4_scene: {e}")
+    
+    if thread_5_scene.is_running():
+        try:
+            thread_5_scene.stop()
+        except Exception as e:
+            print(f"Ошибка при остановке thread_5_scene: {e}")
+    
+    # Закрыть окно
+    root.destroy()
 
+# Если вам нужны другие разделы, просто создайте для них свои фреймы по аналогии с scene_generation_frame
+root.protocol("WM_DELETE_WINDOW", on_close)
 root.mainloop()

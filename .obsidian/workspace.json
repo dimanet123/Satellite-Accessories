@@ -11,11 +11,9 @@
             "id": "ec73fabedeee383b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "2scene/Инструкция по использованию.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.5.12"
               }
             }
           }
@@ -85,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2scene/Инструкция по использованию.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2scene/Инструкция по использованию.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +120,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2scene/Инструкция по использованию.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,27 +142,30 @@
   },
   "active": "ec73fabedeee383b",
   "lastOpenFiles": [
+    "2scene/Инструкция по использованию.md",
+    "2scene/README.md",
+    "README.pdf",
+    "Инструкция по использованию.pdf",
+    "requirements.txt",
+    "Новый текстовый документ.txt",
+    "Новая папка",
+    "__rar_6680.23568.rartemp",
+    "distribution/full_project_GUI/models/spring.3DXML",
+    "distribution/full_project_GUI/models/scene.png",
+    "distribution/full_project_GUI/models/sattelite.3DXML",
+    "distribution/full_project_GUI/models/cube.3DXML",
+    "distribution/full_project_GUI/models/arrow.3DXML",
+    "картинки/Pasted image 20240407122438.png",
     "картинки/Pasted image 20240407122534.png",
     "картинки/Pasted image 20240407122528.png",
     "картинки/Pasted image 20240407122519.png",
     "картинки/Pasted image 20240407122505.png",
     "картинки/Pasted image 20240407122449.png",
-    "картинки/Pasted image 20240407122438.png",
     "картинки/Pasted image 20240407085502.png",
     "картинки/Pasted image 20240407085342.png",
     "картинки/Pasted image 20240407085316.png",
-    "картинки/Pasted image 20240407084112.png",
-    "картинки/Pasted image 20240407084101.png",
-    "картинки",
-    "Новая папка",
-    "full_project_GUI/for distribution/scenes/3_scene/3_3scene.vrcpa",
-    "full_project_GUI/for distribution/scenes/3_scene/3_2scene.vrcpa",
-    "full_project_GUI/for distribution/scenes/3_scene/3_1scene.vrcpa",
-    "full_project_GUI/for distribution/scenes/2_scene/2_scene.vrcpa",
-    "full_project_GUI/for distribution/scenes/1_scene/1_scene.vrcpa",
-    "full_project_GUI/for distribution/pyarmor_runtime_000000/__pycache__/__init__.cpython-311.pyc",
-    "full_project_GUI/for distribution/python_classes/__pycache__/thread_controller.cpython-311.pyc",
-    "full_project_GUI/for distribution/python_classes/__pycache__/class_3dobject.cpython-311.pyc",
-    "1scene/README.md"
+    "2scene — копия/README.md",
+    "1scene/README.md",
+    "3scene/README.md"
   ]
 }
