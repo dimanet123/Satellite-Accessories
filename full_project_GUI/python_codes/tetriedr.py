@@ -193,6 +193,8 @@ timer = 0
 
 def scene_3_2(force, freq, control_event):
     timer = 0
+    y_positions = []
+    times = []
     UDP_IP = "127.0.0.1"
     UDP_PORT = 6501
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -207,21 +209,21 @@ def scene_3_2(force, freq, control_event):
     objects = [object1, object2, object3, object4]  # Создаем два объекта
     connections = [(0, 1),(1,2),(0,2),(3,0),(3,1),(3,2)]  # Связываем их
     spring_constants = [100,100,100,100,100,100]  # Коэффициент упругости
-    length = 10
+    length = 12
     rest_lengths = [length,length,length,length,length,length]  # Ненагруженная длина пружины
-    dt = 0.0001  # Шаг времени
+    dt = 0.01  # Шаг времени
     time_animation = 0.01
     time_div = int(time_animation/dt)
 
     spring_objects = []
     for spring in range(len(connections)):
         spring_objects.append(Spring())
-    while not control_event.is_set():
+    while timer < 20:
         start_time = time.time()
             
         for i in range(time_div):
             
-            update_system(objects, connections, spring_constants, rest_lengths, dt, 0, timer)
+            update_system(objects, connections, spring_constants, rest_lengths, dt, 0.1, timer)
             # for constraint in constraints:
             #     apply_linear_constraint(objects, constraint)
             timer += dt
@@ -240,6 +242,8 @@ def scene_3_2(force, freq, control_event):
         # print(f'{time_div},{time_dif}')
         # print(f'Энергия системы грузов: {calculate_total_energy(objects, connections, spring_constants, rest_lengths)} Дж')
         DAT = [0]
+        times.append(timer)
+        y_positions.append(object4.vy)
         for obj in objects:
             DAT += obj.form_udp()
         
@@ -254,3 +258,11 @@ def scene_3_2(force, freq, control_event):
 
         
         time.sleep(time_animation)
+    plt.figure(figsize=(10, 5))
+    plt.plot(times, y_positions, label='Y-скорость верхнего груза')
+    plt.xlabel('Время, с')
+    plt.ylabel('Y-скорсоть')
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+scene_3_2(0, 15, None)

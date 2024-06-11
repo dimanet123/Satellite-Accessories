@@ -163,7 +163,7 @@ class Spring:
         # Возвращаем данные о повороте и масштабе, а затем о позиции
         return [self.x1, self.y1, self.z1, float(self.rotation_x), float(self.rotation_y), float(self.rotation_z), self.calc_scale()]
 
-def oscil(n_masses,dimensions,masses,springs):
+def oscil(n_masses,dimensions,masses,springs, num_fixed):
         # Создание матрицы масс
         M = np.diag([mass for mass in masses for _ in range(dimensions)])
 
@@ -179,21 +179,30 @@ def oscil(n_masses,dimensions,masses,springs):
                 K[idx1, idx2] -= stiffness
                 K[idx2, idx1] -= stiffness
 
-        # Вывод матрицы масс и жёсткости
-        print("Матрица масс M:")
-        print(M)
-        print("\nМатрица жёсткости K:")
-        print(K)
         
+        
+        def delete_row_column(matrix, row_index, col_index):
+            # Зануление строки
+            matrix = np.delete(matrix, row_index, axis=0)
+            matrix = np.delete(matrix, col_index, axis=1)
+    
+            return matrix
         # Создание матрицы
         matrix_K = K
-        matrix_K[0,0] = 1e9
-        matrix_K[1,1] = 1e9
-        matrix_K[2,2] = 1e9
-        
         matrix_M = M
+        for i in num_fixed:
+            matrix_K = delete_row_column(matrix_K, i, i)
+            matrix_M = delete_row_column(matrix_M, i, i)
+        # matrix_K[0,0] = 1e9
+        # matrix_K[1,1] = 1e9
+        # matrix_K[2,2] = 1e9
+        # Вывод матрицы масс и жёсткости
+        print("Матрица масс M:")
+        print(matrix_M)
+        print("\nМатрица жёсткости K:")
+        print(matrix_K)
         
-        diagonal_elements = np.diag(matrix_M)
+        diagonal_elements = np.diag(matrix_M)+0.00000000000001
         
         matrix_base = matrix_K / diagonal_elements[:, np.newaxis]
 

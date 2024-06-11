@@ -166,7 +166,7 @@ class Spring:
 def oscil(n_masses,dimensions,masses,springs, num_fixed):
         # Создание матрицы масс
         M = np.diag([mass for mass in masses for _ in range(dimensions)])
-        print(M)
+
         # Инициализация матрицы жёсткости
         K = np.zeros((n_masses * dimensions, n_masses * dimensions))
 
@@ -179,31 +179,33 @@ def oscil(n_masses,dimensions,masses,springs, num_fixed):
                 K[idx1, idx2] -= stiffness
                 K[idx2, idx1] -= stiffness
 
-        
+        # Вывод матрицы масс и жёсткости
+        print("Матрица масс M:")
+        print(M)
+        print("\nМатрица жёсткости K:")
+        print(K)
         
         def delete_row_column(matrix, row_index, col_index):
             # Зануление строки
-            matrix = np.delete(matrix, row_index, axis=0)
-            matrix = np.delete(matrix, col_index, axis=1)
+            matrix[row_index, :] = 0
+    # Зануление столбца
+            matrix[:, col_index] = 0
     
             return matrix
         # Создание матрицы
         matrix_K = K
-        matrix_M = M
         for i in num_fixed:
             matrix_K = delete_row_column(matrix_K, i, i)
-            matrix_M = delete_row_column(matrix_M, i, i)
         # matrix_K[0,0] = 1e9
         # matrix_K[1,1] = 1e9
         # matrix_K[2,2] = 1e9
-        # Вывод матрицы масс и жёсткости
-        print("Матрица масс M:")
-        print(matrix_M)
-        print("\nМатрица жёсткости K:")
-        print(matrix_K)
         
+        
+        
+        matrix_M = M
+        for i in num_fixed:
+            matrix_M = delete_row_column(matrix_M, i, i)
         diagonal_elements = np.diag(matrix_M)+0.00000000000001
-        print(diagonal_elements[:, np.newaxis])
         
         matrix_base = matrix_K / diagonal_elements[:, np.newaxis]
 
